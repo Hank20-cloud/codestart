@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeStart</title>
+  <script>
+    // Apply the saved theme before the page draws, so it never flashes in the wrong colors.
+    try {
+      var savedTheme = localStorage.getItem("codestart.theme");
+      if (savedTheme === "light" || savedTheme === "dark") document.documentElement.setAttribute("data-theme", savedTheme);
+    } catch (e) { /* storage blocked: follow the device */ }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">CodeStart</a>
+    <button type="button" class="theme-btn" id="theme-btn"></button>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <noscript>
+    <p class="container">CodeStart needs JavaScript. Please turn on JavaScript in your browser.</p>
+  </noscript>
+
+  <!-- Plain script tags (no modules, no fetch) so the site also works when opened from a folder. -->
+  <script src="lessons/course.js"></script>
+  <script src="lessons/ch01.js"></script>
+  <script src="lessons/ch02.js"></script>
+  <script src="lessons/ch03.js"></script>
+  <script src="lessons/ch04.js"></script>
+  <script src="lessons/ch05.js"></script>
+  <script src="lessons/ch06.js"></script>
+  <script src="lessons/ch07.js"></script>
+  <script src="lessons/ch08.js"></script>
+  <script src="lessons/ch09.js"></script>
+  <script src="lessons/ch10.js"></script>
+  <script src="lessons/ch11.js"></script>
+  <script src="lessons/ch12.js"></script>
+  <script src="lessons/projects.js"></script>
+  <script src="lessons/py01.js"></script>
+  <script src="lessons/py02.js"></script>
+  <script src="lessons/py03.js"></script>
+  <script src="lessons/py04.js"></script>
+  <script src="lessons/py05.js"></script>
+  <script src="lessons/py06.js"></script>
+  <script src="lessons/py07.js"></script>
+  <script src="lessons/py08.js"></script>
+  <script src="lessons/py09.js"></script>
+  <script src="lessons/py-projects.js"></script>
+  <script src="lessons/ap01.js"></script>
+  <script src="lessons/ap02.js"></script>
+  <script src="lessons/ap03.js"></script>
+  <script src="lessons/ap04.js"></script>
+  <script src="lessons/ap05.js"></script>
+  <script src="lessons/ap06.js"></script>
+  <script src="lessons/ap07.js"></script>
+  <script src="lessons/ap08.js"></script>
+  <script src="lessons/ap09.js"></script>
+  <script src="lessons/ps01.js"></script>
+  <script src="lessons/ps02.js"></script>
+  <script src="lessons/ps03.js"></script>
+  <script src="lessons/ps04.js"></script>
+  <script src="lessons/ps05.js"></script>
+  <script src="lessons/ps06.js"></script>
+  <script src="lessons/ps07.js"></script>
+  <script src="lessons/ps08.js"></script>
+  <script src="lessons/ps09.js"></script>
+  <script src="lessons/ps10.js"></script>
+  <script src="lessons/ps11.js"></script>
+  <script src="lessons/ps12.js"></script>
+  <script src="lessons/ps13.js"></script>
+  <script src="lessons/ps14.js"></script>
+  <script src="lessons/ps15.js"></script>
+  <script src="lessons/ps16.js"></script>
+  <script src="lessons/ps17.js"></script>
+  <script src="lessons/ps18.js"></script>
+  <script src="lessons/ps19.js"></script>
+  <script src="lessons/ps20.js"></script>
+  <!-- Skulpt 1.2.0: Python in the browser (MIT license, see vendor/skulpt/LICENSE). -->
+  <script src="vendor/skulpt/skulpt.min.js"></script>
+  <script src="vendor/skulpt/skulpt-stdlib.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/runner.js"></script>
+  <script src="js/py-runner.js"></script>
+  <script src="js/editor.js"></script>
+  <script src="js/tutor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
