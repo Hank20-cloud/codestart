@@ -95,7 +95,7 @@ DISPLAY(5)</code></pre>
       id: "ap03-l4",
       title: "IF and ELSE",
       html: `
-        <p>AP pseudocode uses curly brackets <code>{ }</code> instead of indentation to show which lines belong to the IF:</p>
+        <p>AP pseudocode uses braces <code>{ }</code> instead of indentation to show which lines belong to the IF:</p>
         <pre><code>IF (score ≥ 50)
 {
    DISPLAY("Pass")

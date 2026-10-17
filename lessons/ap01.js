@@ -10,6 +10,30 @@ addChapterContent("ap01", {
   `,
   lessons: [
     {
+      id: "ap01-l5",
+      title: "Computing innovations",
+      html: `
+        <p>An <strong>innovation</strong> is a new idea, product, or way of doing something.
+        A <strong>computing innovation</strong> is an innovation that has a <strong>program</strong> as an important part of how it works.
+        If you take the program away, the innovation does not work anymore.</p>
+        <p>A computing innovation can be one of three kinds:</p>
+        <table>
+          <tr><th>Kind</th><th>Meaning</th><th>Examples</th></tr>
+          <tr><td><strong>Physical</strong></td><td>a real object that you can touch, with a program inside that controls it</td><td>a self-driving car, a fitness watch, a smart thermostat (a device that controls the heating at home)</td></tr>
+          <tr><td><strong>Non-physical software</strong></td><td>a program or app, with no special object</td><td>a photo editing app, a video game, a map app</td></tr>
+          <tr><td><strong>Non-physical concept</strong></td><td>a new way of doing things that programs make possible</td><td>e-commerce (buying and selling online), social networking, online banking</td></tr>
+        </table>
+        <div class="tip"><strong>Is it a computing innovation?</strong> Ask: "Does it need a program to do its main job?"
+        A self-driving car needs a program to steer and to stop. A normal bicycle does not need any program, so it is not a computing innovation.</div>
+        <p>This Big Idea is about how people create programs, and so how they create computing innovations.</p>
+        <p>Every computing innovation has <strong>good effects and bad effects</strong>, and often some effects that nobody planned.
+        For example, social networking helps friends stay in touch, but it can also spread false news.
+        You learn more about this in Big Idea 5 (chapter "Impact of computing").</p>
+        <p>On the AP exam, some questions come with a <strong>reading passage</strong>: a short text that describes one computing innovation.
+        You read it and then answer questions about its purpose, the data it uses, and its good and bad effects.</p>
+      `
+    },
+    {
       id: "ap01-l1",
       title: "Working together",
       html: `
@@ -120,6 +144,43 @@ Output:  the song plays and the screen shows its name</code></pre>
     }
   ],
   exercises: [
+    {
+      id: "ap01-ex9",
+      title: "Which is a computing innovation?",
+      type: "mc",
+      instructions: `<p>Which of these is a <strong>computing innovation</strong>?</p>`,
+      choices: [
+        "A wooden chair with a new, more comfortable shape",
+        "A paper notebook with pages that can be removed and put back",
+        "A phone app that listens to a song and tells you its name",
+        "A new kind of glue that dries in one second"
+      ],
+      answer: 2,
+      explain: "The song app needs a program to do its main job: it compares the sound with songs it knows. The chair, the notebook, and the glue work without any program.",
+      hints: [
+        "A computing innovation needs a program to do its main job.",
+        "Which choice would stop working if you removed the program?"
+      ]
+    },
+    {
+      id: "ap01-ex10",
+      title: "What kind of innovation?",
+      type: "mc",
+      instructions: `<p><strong>E-commerce</strong> means buying and selling things online.
+      What kind of computing innovation is e-commerce?</p>`,
+      choices: [
+        "A physical computing innovation",
+        "A non-physical concept",
+        "It is not a computing innovation, because people bought and sold things before computers",
+        "A piece of hardware (a physical part of a computer)"
+      ],
+      answer: 1,
+      explain: "E-commerce is a new way of doing things that programs make possible. It is not one object or one app, so it is a non-physical concept.",
+      hints: [
+        "Can you touch e-commerce, like you can touch a self-driving car?",
+        "E-commerce is not one app. It is a way of doing business. Which kind of innovation is an idea or a way of doing things?"
+      ]
+    },
     {
       id: "ap01-ex1",
       title: "Pair programming",

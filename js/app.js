@@ -37,7 +37,10 @@
       id: "ap", title: "AP Computer Science Principles", lang: "AP pseudocode and Python", icon: "AP",
       summary: "The AP CSP course, Big Idea by Big Idea, with AP-style practice questions. Do Programming basics first.",
       chapters: CODESTART.apChapters, projects: [],
-      done: "Finish with the Create performance task and mixed exam practice."
+      done: "Finish with the Create performance task, exam practice, and a practice test.",
+      note: '<strong>Read chapter 8 early.</strong> In the real AP course you build your own program (the Create performance task) ' +
+        'during the school year and submit it <em>before</em> the exam. Read <a href="#/ap08">chapter 8</a> before you start your program, ' +
+        'so you know what it must include. Then come back here and do the chapters in order.'
     },
     {
       id: "psych", title: "AP Psychology", lang: "No code. Lessons and AP-style questions", icon: "Ψ",
@@ -158,6 +161,7 @@
       "<h1>" + esc(cat.title) + "</h1>" +
       '<p class="muted">' + esc(cat.lang) + ". Start at chapter 1. Each chapter has short lessons and exercises. " +
       esc(cat.done) + "</p>" +
+      (cat.note ? '<div class="tip">' + cat.note + "</div>" : "") +
       '<ul class="card-list">' + chapters + "</ul>" +
       (projects ? "<h2>Projects</h2>" +
         '<p class="muted">' + esc(cat.projectsIntro) + "</p>" +

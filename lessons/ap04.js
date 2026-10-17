@@ -166,6 +166,126 @@ FOR EACH n IN nums
         <p>If the list is not sorted, binary search can give a wrong answer. Then you must use linear search,
         or sort the list first.</p>
       `
+    },
+    {
+      id: "ap04-l5",
+      title: "Flowcharts",
+      html: `
+        <p>A <strong>flowchart</strong> is a drawing of an algorithm. Shapes show the steps, and arrows show the order of the steps.
+        The AP exam sometimes shows an algorithm as a flowchart instead of as code. You must be able to read both.</p>
+        <svg viewBox="0 0 340 82" width="100%" style="max-width:340px;display:block;margin:12px 0" font-size="13" role="img"
+          aria-label="The four flowchart shapes: an oval for start or end, a rectangle for a step, a diamond for a decision, and an arrow for the order.">
+          <defs><marker id="ap04-arrow-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="5" y="15" width="80" height="30" rx="15"/>
+            <rect x="100" y="15" width="80" height="30"/>
+            <polygon points="235,10 275,30 235,50 195,30"/>
+            <line x1="290" y1="30" x2="335" y2="30" marker-end="url(#ap04-arrow-s)"/>
+          </g>
+          <g fill="currentColor" text-anchor="middle">
+            <text x="45" y="72">start / end</text>
+            <text x="140" y="72">step</text>
+            <text x="235" y="72">decision</text>
+            <text x="312" y="72">order</text>
+          </g>
+        </svg>
+        <table>
+          <tr><th>Shape</th><th>What it means</th></tr>
+          <tr><td><strong>Oval</strong> (or a rectangle with round corners)</td><td>the <strong>start</strong> or the <strong>end</strong> of the algorithm</td></tr>
+          <tr><td><strong>Rectangle</strong></td><td>one <strong>step</strong>, for example <code>x ← 5</code> or <code>DISPLAY(x)</code></td></tr>
+          <tr><td><strong>Diamond</strong></td><td>a <strong>decision</strong>: a condition that is true or false. Two arrows come out of it.
+          One is labeled <em>true</em> and the other <em>false</em> (or <em>yes</em> and <em>no</em>).</td></tr>
+          <tr><td><strong>Arrow</strong></td><td>which step comes <strong>next</strong></td></tr>
+        </table>
+        <p><strong>How to read a flowchart:</strong> start at the Start oval and follow the arrows.
+        Do each step you reach. At a diamond, check the condition, then follow the arrow with the matching label.
+        Stop when you reach the End oval.</p>
+        <p><strong>(a) A decision: IF and ELSE.</strong> This flowchart and this code do the same thing:</p>
+        <svg viewBox="0 0 340 330" width="100%" style="max-width:340px;display:block;margin:12px 0" font-size="13" role="img"
+          aria-label="Flowchart: Start, then score gets INPUT. A diamond asks: score is at least 50? The true arrow goes to DISPLAY Pass. The false arrow goes to DISPLAY Fail. Both arrows then go to End.">
+          <defs><marker id="ap04-arrow-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="120" y="10" width="100" height="30" rx="15"/>
+            <line x1="170" y1="40" x2="170" y2="60" marker-end="url(#ap04-arrow-a)"/>
+            <rect x="100" y="60" width="140" height="32"/>
+            <line x1="170" y1="92" x2="170" y2="112" marker-end="url(#ap04-arrow-a)"/>
+            <polygon points="170,112 240,147 170,182 100,147"/>
+            <path d="M100,147 H70 V210" marker-end="url(#ap04-arrow-a)"/>
+            <path d="M240,147 H270 V210" marker-end="url(#ap04-arrow-a)"/>
+            <rect x="10" y="210" width="120" height="32"/>
+            <rect x="210" y="210" width="120" height="32"/>
+            <path d="M70,242 V305 H120" marker-end="url(#ap04-arrow-a)"/>
+            <path d="M270,242 V305 H220" marker-end="url(#ap04-arrow-a)"/>
+            <rect x="120" y="290" width="100" height="30" rx="15"/>
+          </g>
+          <g fill="currentColor" text-anchor="middle">
+            <text x="170" y="30">Start</text>
+            <text x="170" y="81">score ← INPUT()</text>
+            <text x="170" y="151">score ≥ 50?</text>
+            <text x="82" y="140">true</text>
+            <text x="256" y="140">false</text>
+            <text x="70" y="231">DISPLAY("Pass")</text>
+            <text x="270" y="231">DISPLAY("Fail")</text>
+            <text x="170" y="309">End</text>
+          </g>
+        </svg>
+        <pre><code>score ← INPUT()
+IF (score ≥ 50)
+{
+   DISPLAY("Pass")
+}
+ELSE
+{
+   DISPLAY("Fail")
+}</code></pre>
+        <p>The diamond is the IF condition. The <em>true</em> arrow leads to the code inside the IF braces <code>{ }</code>.
+        The <em>false</em> arrow leads to the code inside the ELSE braces. After that, both paths meet again.</p>
+        <p><strong>(b) A loop.</strong> In a flowchart, a loop is an arrow that goes <strong>back up</strong> to an earlier diamond:</p>
+        <svg viewBox="0 0 340 410" width="100%" style="max-width:340px;display:block;margin:12px 0" font-size="13" role="img"
+          aria-label="Flowchart: Start, then count gets 1. A diamond asks: count is greater than 3? The false arrow goes down to DISPLAY count, then count gets count plus 1, then an arrow goes back up to the diamond. The true arrow goes to DISPLAY Done, then End.">
+          <defs><marker id="ap04-arrow-b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="120" y="10" width="100" height="30" rx="15"/>
+            <line x1="170" y1="40" x2="170" y2="60" marker-end="url(#ap04-arrow-b)"/>
+            <rect x="110" y="60" width="120" height="32"/>
+            <line x1="170" y1="92" x2="170" y2="120" marker-end="url(#ap04-arrow-b)"/>
+            <polygon points="170,120 240,155 170,190 100,155"/>
+            <line x1="170" y1="190" x2="170" y2="220" marker-end="url(#ap04-arrow-b)"/>
+            <rect x="110" y="220" width="120" height="32"/>
+            <line x1="170" y1="252" x2="170" y2="272" marker-end="url(#ap04-arrow-b)"/>
+            <rect x="95" y="272" width="150" height="32"/>
+            <path d="M95,288 H40 V155 H100" marker-end="url(#ap04-arrow-b)"/>
+            <path d="M240,155 H272 V320" marker-end="url(#ap04-arrow-b)"/>
+            <rect x="210" y="320" width="125" height="32"/>
+            <line x1="272" y1="352" x2="272" y2="372" marker-end="url(#ap04-arrow-b)"/>
+            <rect x="222" y="372" width="100" height="30" rx="15"/>
+          </g>
+          <g fill="currentColor" text-anchor="middle">
+            <text x="170" y="30">Start</text>
+            <text x="170" y="81">count ← 1</text>
+            <text x="170" y="159">count &gt; 3?</text>
+            <text x="194" y="210">false</text>
+            <text x="256" y="148">true</text>
+            <text x="170" y="241">DISPLAY(count)</text>
+            <text x="170" y="293">count ← count + 1</text>
+            <text x="272" y="341">DISPLAY("Done")</text>
+            <text x="272" y="391">End</text>
+          </g>
+        </svg>
+        <pre><code>count ← 1
+REPEAT UNTIL (count &gt; 3)
+{
+   DISPLAY(count)
+   count ← count + 1
+}
+DISPLAY("Done")</code></pre>
+        <p>Output: <code>1 2 3 Done</code>. The diamond is the REPEAT UNTIL condition. It is checked <strong>before</strong> each round.
+        While it is false, the program follows the <em>false</em> arrow into the loop body, and then the arrow goes back up to the diamond.
+        When it becomes true, the program leaves the loop.</p>
+        <div class="tip"><strong>IF or loop?</strong> If an arrow goes back up to the diamond, it is a <strong>loop</strong>.
+        If the paths only go down and meet again, it is an <strong>IF</strong>.
+        Always read the labels on the arrows: in some flowcharts the <em>true</em> arrow goes into the loop, not the <em>false</em> arrow.</div>
+      `
     }
   ],
   exercises: [
@@ -347,6 +467,114 @@ DISPLAY(n)</code></pre>
         "Use <code>for n in numbers:</code> and an <code>if</code> that compares n with biggest.",
         "When <code>n &gt; biggest</code>, set <code>biggest = n</code>.",
         "If all numbers are negative, starting at 0 gives the wrong answer. Start with <code>biggest = numbers[0]</code> (in Python the first index is 0)."
+      ]
+    },
+    {
+      id: "ap04-ex9",
+      title: "Follow a flowchart",
+      type: "mc",
+      instructions: `
+        <p>The user enters <code>3</code>. What does this flowchart display?</p>
+        <svg viewBox="0 0 340 362" width="100%" style="max-width:340px;display:block;margin:12px 0" font-size="13" role="img"
+          aria-label="Flowchart: Start, then x gets INPUT. A diamond asks: x is greater than 10? The false arrow goes down to x gets x times 2, then an arrow goes back up to the diamond. The true arrow goes to DISPLAY x, then End.">
+          <defs><marker id="ap04-arrow-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="120" y="10" width="100" height="30" rx="15"/>
+            <line x1="170" y1="40" x2="170" y2="60" marker-end="url(#ap04-arrow-c)"/>
+            <rect x="110" y="60" width="120" height="32"/>
+            <line x1="170" y1="92" x2="170" y2="120" marker-end="url(#ap04-arrow-c)"/>
+            <polygon points="170,120 240,155 170,190 100,155"/>
+            <line x1="170" y1="190" x2="170" y2="220" marker-end="url(#ap04-arrow-c)"/>
+            <rect x="110" y="220" width="120" height="32"/>
+            <path d="M110,236 H40 V155 H100" marker-end="url(#ap04-arrow-c)"/>
+            <path d="M240,155 H272 V270" marker-end="url(#ap04-arrow-c)"/>
+            <rect x="215" y="270" width="115" height="32"/>
+            <line x1="272" y1="302" x2="272" y2="322" marker-end="url(#ap04-arrow-c)"/>
+            <rect x="222" y="322" width="100" height="30" rx="15"/>
+          </g>
+          <g fill="currentColor" text-anchor="middle">
+            <text x="170" y="30">Start</text>
+            <text x="170" y="81">x ← INPUT()</text>
+            <text x="170" y="159">x &gt; 10?</text>
+            <text x="194" y="210">false</text>
+            <text x="256" y="148">true</text>
+            <text x="170" y="241">x ← x * 2</text>
+            <text x="272" y="291">DISPLAY(x)</text>
+            <text x="272" y="341">End</text>
+          </g>
+        </svg>
+      `,
+      choices: ["<code>6</code>", "<code>24</code>", "<code>12</code>", "<code>3 6 12</code>"],
+      answer: 2,
+      explain: "x is 3, then 6, then 12. The check x &gt; 10 is false for 3 and 6, so x is doubled. For 12 it is true, so the program displays 12 one time and ends.",
+      hints: [
+        "Start with x = 3 and follow the arrows. At the diamond, check the condition each time you reach it.",
+        "Is 6 &gt; 10? Is 12 &gt; 10? The DISPLAY box is only on the <em>true</em> path.",
+        "x goes 3 → 6 → 12. Which value is shown, and how many times?"
+      ]
+    },
+    {
+      id: "ap04-ex10",
+      title: "Flowchart to code",
+      type: "mc",
+      instructions: `
+        <p>Which code does the same thing as this flowchart?</p>
+        <svg viewBox="0 0 340 382" width="100%" style="max-width:340px;display:block;margin:12px 0" font-size="13" role="img"
+          aria-label="Flowchart: Start, then n gets INPUT. A diamond asks: n MOD 2 equals 0? The true arrow goes to DISPLAY even, and from there to DISPLAY done. The false arrow goes straight down to DISPLAY done. Then End.">
+          <defs><marker id="ap04-arrow-d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+          <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="120" y="10" width="100" height="30" rx="15"/>
+            <line x1="170" y1="40" x2="170" y2="60" marker-end="url(#ap04-arrow-d)"/>
+            <rect x="110" y="60" width="120" height="32"/>
+            <line x1="170" y1="92" x2="170" y2="112" marker-end="url(#ap04-arrow-d)"/>
+            <polygon points="170,112 245,147 170,182 95,147"/>
+            <path d="M245,147 H275 V200" marker-end="url(#ap04-arrow-d)"/>
+            <rect x="215" y="200" width="120" height="32"/>
+            <path d="M275,232 V306 H240" marker-end="url(#ap04-arrow-d)"/>
+            <line x1="170" y1="182" x2="170" y2="290" marker-end="url(#ap04-arrow-d)"/>
+            <rect x="100" y="290" width="140" height="32"/>
+            <line x1="170" y1="322" x2="170" y2="342" marker-end="url(#ap04-arrow-d)"/>
+            <rect x="120" y="342" width="100" height="30" rx="15"/>
+          </g>
+          <g fill="currentColor" text-anchor="middle">
+            <text x="170" y="30">Start</text>
+            <text x="170" y="81">n ← INPUT()</text>
+            <text x="170" y="151">n MOD 2 = 0?</text>
+            <text x="261" y="140">true</text>
+            <text x="192" y="205">false</text>
+            <text x="275" y="221">DISPLAY("even")</text>
+            <text x="170" y="311">DISPLAY("done")</text>
+            <text x="170" y="361">End</text>
+          </g>
+        </svg>
+      `,
+      choices: [
+        "<pre><code>n ← INPUT()\nIF (n MOD 2 = 0)\n{\n   DISPLAY(\"even\")\n}\nELSE\n{\n   DISPLAY(\"done\")\n}</code></pre>",
+        "<pre><code>n ← INPUT()\nIF (n MOD 2 = 0)\n{\n   DISPLAY(\"even\")\n   DISPLAY(\"done\")\n}</code></pre>",
+        "<pre><code>n ← INPUT()\nREPEAT UNTIL (n MOD 2 = 0)\n{\n   DISPLAY(\"even\")\n}\nDISPLAY(\"done\")</code></pre>",
+        "<pre><code>n ← INPUT()\nIF (n MOD 2 = 0)\n{\n   DISPLAY(\"even\")\n}\nDISPLAY(\"done\")</code></pre>"
+      ],
+      answer: 3,
+      explain: "Both arrows from the diamond end at DISPLAY(\"done\"), so it runs every time, after the IF. Only the true path goes through DISPLAY(\"even\"), and no arrow goes back up, so there is no loop.",
+      hints: [
+        "Does any arrow go back up? If not, it is not a loop.",
+        "Follow the <em>false</em> arrow. Which box does it reach? Now follow the <em>true</em> arrow to the end.",
+        "DISPLAY(\"done\") is reached on both paths, so it must be outside the IF braces <code>{ }</code>."
+      ]
+    },
+    {
+      id: "ap04-ex11",
+      title: "The decision shape",
+      type: "mc",
+      instructions: `
+        <p>In a flowchart, which shape shows a <strong>decision</strong>, with one arrow for true and one arrow for false?</p>
+      `,
+      choices: ["An oval", "A diamond", "A rectangle", "An arrow"],
+      answer: 1,
+      explain: "A diamond holds a condition. Two arrows come out of it, one for true (yes) and one for false (no).",
+      hints: [
+        "The oval is for start and end. The rectangle is for one step.",
+        "Which shape has two arrows coming out of it?"
       ]
     }
   ]

@@ -27,6 +27,12 @@ addChapterContent("ap06", {
         </table>
         <p>The <strong>Internet</strong> is a network of networks. Millions of small networks (at homes, schools, and companies)
         are connected together.</p>
+        <div class="tip"><strong>Autonomous systems.</strong> An <strong>autonomous system</strong> is a large network, or a group of networks,
+        that one organization runs, for example an ISP (Internet service provider, the company that sells you Internet access),
+        a big company, or a university. "Autonomous" means it makes its own decisions: it has its own rules for routing inside it.
+        Autonomous systems connect to each other and tell each other which addresses they can reach.
+        This is how one packet can travel through the networks of many different organizations on its way to the receiver.
+        <br><em>Note:</em> the College Board course description does not use the words "autonomous system", so the exam probably does not ask about them. Some review books include them, because they help explain how the Internet is built.</div>
         <h3>Protocols</h3>
         <p>A <strong>protocol</strong> is an agreed set of rules for how devices send and receive data.
         Because every device follows the same rules, a phone from one company can talk to a server from another company.</p>
@@ -216,6 +222,26 @@ C ----- E ----- F</code></pre>
       hints: [
         "One central computer for billions of devices would be very slow and a single point of failure.",
         "How can devices from different companies understand each other?"
+      ]
+    },
+    {
+      id: "ap06-ex9",
+      title: "Autonomous systems",
+      type: "mc",
+      instructions: `<p>A packet travels from a student's laptop at home to a university's web server in another country.
+      On the way, it goes through the network of the student's Internet service provider, the network of a large
+      international company, and the university's network. Which statement best describes this?</p>`,
+      choices: [
+        "The packet uses one single network that one organization owns, from the laptop to the server.",
+        "The packet moves through several autonomous systems. Each one is run by one organization, and they are connected and share routes with each other.",
+        "The packet must stop at one central computer that decides the path for every packet on the Internet.",
+        "The packet can only reach the server if all three organizations use the same routing rules inside their networks."
+      ],
+      answer: 1,
+      explain: "The Internet is a network of networks. Each organization runs its own autonomous system with its own routing rules, and the autonomous systems connect and exchange routes, so the packet can cross all of them.",
+      hints: [
+        "How many different organizations run the networks in this story?",
+        "Each organization has its own rules inside its network. What lets the packet still cross from one network to the next?"
       ]
     },
     {

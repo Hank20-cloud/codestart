@@ -44,6 +44,50 @@ addChapterContent("ap02", {
       `
     },
     {
+      id: "ap02-l5",
+      title: "Number systems: decimal, binary, and hexadecimal",
+      html: `
+        <div class="tip"><strong>Is this on the exam?</strong> The College Board course description asks you to work with
+        <strong>binary</strong> and <strong>decimal</strong> numbers. <strong>Hexadecimal</strong> is extra.
+        Some review books include it, and programmers use it a lot, so it is good to know.</div>
+        <p>A <strong>number system</strong> is a way to write numbers. The <strong>base</strong> tells you how many different digits
+        the system has, and how much each place is worth.</p>
+        <table>
+          <tr><th>Number system</th><th>Base</th><th>Digits</th><th>Place values (from the right)</th></tr>
+          <tr><td><strong>Decimal</strong></td><td>10</td><td>0 1 2 3 4 5 6 7 8 9</td><td>1, 10, 100, 1000, ...</td></tr>
+          <tr><td><strong>Binary</strong></td><td>2</td><td>0 1</td><td>1, 2, 4, 8, 16, ...</td></tr>
+          <tr><td><strong>Hexadecimal</strong> (hex)</td><td>16</td><td>0 1 2 3 4 5 6 7 8 9 A B C D E F</td><td>1, 16, 256, 4096, ...</td></tr>
+        </table>
+        <p>Hexadecimal needs 16 digits, but we only have 10 number symbols. So it uses letters for the values 10 to 15:</p>
+        <table>
+          <tr><th>Hex digit</th><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr>
+          <tr><th>Value</th><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+        </table>
+        <h3>Hex to decimal</h3>
+        <p>Multiply each digit by its place value, then add. Example for <code>2B</code>:
+        2 × 16 = 32, and B = 11, so 11 × 1 = 11. 32 + 11 = <code>43</code>.</p>
+        <p>Be careful: <code>1A</code> in hex is <strong>not</strong> 110. It is 1 × 16 + 10 = <code>26</code>.</p>
+        <h3>Decimal to hex</h3>
+        <p>Divide by 16. The whole number result is the left digit, and the rest (the remainder) is the right digit.
+        Example for 75: 75 ÷ 16 = 4, with a remainder of 11 (because 4 × 16 = 64, and 75 − 64 = 11).
+        11 is <code>B</code>, so 75 = <code>4B</code>. This works for numbers up to 255.</p>
+        <h3>Hex and binary</h3>
+        <p>One hex digit is always exactly <strong>4 bits</strong>, because 4 bits give 2<sup>4</sup> = 16 patterns.
+        So you can change each hex digit into 4 bits, one digit at a time:</p>
+        <pre><code>hex      9       C
+binary   1001    1100
+So 9C in hex = 10011100 in binary.</code></pre>
+        <p>The other way works too: cut the binary number into groups of 4 bits, starting from the right,
+        and change each group into one hex digit. <code>0101 1111</code> is 5 and F, so it is <code>5F</code>.</p>
+        <h3>Why do programmers use hex?</h3>
+        <p>Hex is a <strong>shorter way to write binary</strong>. One byte (8 bits) is always just 2 hex digits.
+        <code>11111111</code> is easier to read as <code>FF</code>.</p>
+        <p>You see hex in <strong>web colors</strong>. In CSS (Cascading Style Sheets, the language for the style of web pages),
+        <code>#FF0000</code> is red. The three pairs are the amount of red, green, and blue, each from 00 (none) to FF (255, the most).
+        So <code>#FF0000</code> means: full red, no green, no blue.</p>
+      `
+    },
+    {
       id: "ap02-l2",
       title: "Data compression",
       html: `
@@ -176,6 +220,47 @@ print(hot_days)</code></pre>
       hints: [
         "What is the biggest number 4 bits can store? <code>1111</code> = 8 + 4 + 2 + 1.",
         "When a number is too big for the space it has, the error has a special name."
+      ]
+    },
+    {
+      id: "ap02-ex9",
+      title: "Hex to decimal",
+      type: "mc",
+      instructions: `<p>What is the hexadecimal number <code>1A</code> in decimal?</p>`,
+      choices: ["<code>110</code>", "<code>11</code>", "<code>16</code>", "<code>26</code>"],
+      answer: 3,
+      explain: "The left digit is worth 16 and the right digit is worth 1. A = 10. So 1 × 16 + 10 × 1 = 26.",
+      hints: [
+        "In hex, the place values from the right are 1 and 16.",
+        "In hexadecimal, A is <strong>one</strong> digit, with the value 10. Do not read 1A as the three digits 1, 1, 0.",
+        "Calculate 1 × 16 + 10."
+      ]
+    },
+    {
+      id: "ap02-ex10",
+      title: "Decimal to hex",
+      type: "mc",
+      instructions: `<p>Which hexadecimal number is the same as the decimal number <code>200</code>?</p>`,
+      choices: ["<code>C8</code>", "<code>8C</code>", "<code>128</code>", "<code>B8</code>"],
+      answer: 0,
+      explain: "200 ÷ 16 = 12 with a remainder of 8 (12 × 16 = 192, and 200 − 192 = 8). 12 is C, so 200 = C8.",
+      hints: [
+        "Divide 200 by 16. The whole number result is the left digit.",
+        "12 × 16 = 192. What is left over? And which letter has the value 12?"
+      ]
+    },
+    {
+      id: "ap02-ex11",
+      title: "Hex to binary",
+      type: "mc",
+      instructions: `<p>Which binary number is the same as the hexadecimal number <code>3E</code>?
+      (The space in each answer is only there to make it easier to read.)</p>`,
+      choices: ["<code>0011 1101</code>", "<code>1110 0011</code>", "<code>0011 1110</code>", "<code>0011 1111</code>"],
+      answer: 2,
+      explain: "Change each hex digit into 4 bits. 3 = 0011 and E (14) = 1110. Keep the same order: 0011 1110.",
+      hints: [
+        "One hex digit is always 4 bits. Change each digit on its own.",
+        "3 is 0011. E has the value 14. Which 4 bits make 8 + 4 + 2?"
       ]
     },
     {

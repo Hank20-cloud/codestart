@@ -53,15 +53,16 @@ var CODESTART = {
   // Third category: AP Computer Science Principles, in the order of the College Board course (5 Big Ideas),
   // using the AP Exam Reference Sheet pseudocode. Exercises are "mc" (multiple choice) or "py".
   apChapters: [
-    { id: "ap01", title: "Big Idea 1: Creative Development", summary: "Working together, program purpose, the design process, and finding errors." },
-    { id: "ap02", title: "Big Idea 2: Data", summary: "Binary numbers, compression, and getting information from data." },
+    { id: "ap01", title: "Big Idea 1: Creative Development", summary: "Computing innovations, working together, program purpose, the design process, and finding errors." },
+    { id: "ap02", title: "Big Idea 2: Data", summary: "Binary and hexadecimal numbers, compression, and getting information from data." },
     { id: "ap03", title: "Big Idea 3: Variables, expressions, and decisions", summary: "AP pseudocode: ←, DISPLAY, MOD, strings, Booleans, and IF." },
-    { id: "ap04", title: "Big Idea 3: Loops, lists, and searching", summary: "REPEAT, lists that start at index 1, and binary search." },
-    { id: "ap05", title: "Big Idea 3: Procedures and algorithms", summary: "PROCEDURE, libraries, RANDOM, simulations, efficiency, and problems no computer can solve." },
+    { id: "ap04", title: "Big Idea 3: Loops, lists, and searching", summary: "REPEAT, lists that start at index 1, binary search, and flowcharts." },
+    { id: "ap05", title: "Big Idea 3: Procedures and algorithms", summary: "Abstraction, PROCEDURE, libraries, RANDOM, simulations, the robot, efficiency, and problems no computer can solve." },
     { id: "ap06", title: "Big Idea 4: Computer systems and networks", summary: "How the Internet works, fault tolerance, and parallel computing." },
     { id: "ap07", title: "Big Idea 5: Impact of computing", summary: "Good and bad effects, bias, the digital divide, privacy, and safe computing." },
     { id: "ap08", title: "The Create performance task", summary: "Plan and build your own program, and answer the written questions about it." },
-    { id: "ap09", title: "Exam practice", summary: "Mixed AP-style questions from all five Big Ideas." }
+    { id: "ap09", title: "Exam practice", summary: "Mixed AP-style questions from all five Big Ideas." },
+    { id: "ap10", title: "Practice test", summary: "30 AP-style questions from all five Big Ideas. Take it like a real test." }
   ],
   // Fourth category: AP Psychology, in the order of the College Board course (Units 0-5). Topics follow
   // Barron's AP Psychology Premium and Myers' Psychology for the AP Course; the text is our own. Exercises are "mc".
