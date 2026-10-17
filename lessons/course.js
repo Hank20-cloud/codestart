@@ -52,44 +52,47 @@ var CODESTART = {
   ],
   // Third category: AP Computer Science Principles, in the order of the College Board course (5 Big Ideas),
   // using the AP Exam Reference Sheet pseudocode. Exercises are "mc" (multiple choice) or "py".
+  // barrons: the matching part of Barron's AP Computer Science Principles Premium (2027 edition), shown on the
+  // chapter page. Taken from photos of the book's table of contents; our own text does not come from the book.
   apChapters: [
-    { id: "ap01", title: "Big Idea 1: Creative Development", summary: "Computing innovations, working together, program purpose, the design process, and finding errors." },
-    { id: "ap02", title: "Big Idea 2: Data", summary: "Binary and hexadecimal numbers, compression, and getting information from data." },
-    { id: "ap03", title: "Big Idea 3: Variables, expressions, and decisions", summary: "AP pseudocode: ←, DISPLAY, MOD, strings, Booleans, and IF." },
-    { id: "ap04", title: "Big Idea 3: Loops, lists, and searching", summary: "REPEAT, lists that start at index 1, binary search, and flowcharts." },
-    { id: "ap05", title: "Big Idea 3: Procedures and algorithms", summary: "Abstraction, PROCEDURE, libraries, RANDOM, simulations, the robot, efficiency, and problems no computer can solve." },
-    { id: "ap06", title: "Big Idea 4: Computer systems and networks", summary: "How the Internet works, fault tolerance, and parallel computing." },
-    { id: "ap07", title: "Big Idea 5: Impact of computing", summary: "Good and bad effects, bias, the digital divide, privacy, and safe computing." },
-    { id: "ap08", title: "The Create performance task", summary: "Plan and build your own program, and answer the written questions about it." },
-    { id: "ap09", title: "Exam practice", summary: "Mixed AP-style questions from all five Big Ideas." },
-    { id: "ap10", title: "Practice test", summary: "30 AP-style questions from all five Big Ideas. Take it like a real test." }
+    { id: "ap01", title: "Big Idea 1: Creative Development", summary: "Computing innovations, working together, program purpose, the design process, and finding errors.", barrons: "Chapter 2, Big Idea 1: Creative Development (pages 133–148)" },
+    { id: "ap02", title: "Big Idea 2: Data", summary: "Binary and hexadecimal numbers, compression, and getting information from data.", barrons: "Chapter 3, Big Idea 2: Data (pages 149–198). Its section Privacy Concerns (page 167) is in our chapter 7" },
+    { id: "ap03", title: "Big Idea 3: Variables, expressions, and decisions", summary: "AP pseudocode: ←, DISPLAY, MOD, strings, Booleans, and IF.", barrons: "Chapter 4, Big Idea 3: Mathematical Operators (page 202), How to Solve Modulus (page 203), Assignment Operators (page 205), Display Operators (page 208), Input Operators (page 209), Relational and Boolean Operators (page 210), and The Swap (page 232)" },
+    { id: "ap04", title: "Big Idea 3: Loops, lists, and searching", summary: "REPEAT, lists that start at index 1, binary search, and flowcharts.", barrons: "Chapter 4, Big Idea 3: Lists (pages 207 and 263), Searching (page 234), and Flowcharts (page 261)" },
+    { id: "ap05", title: "Big Idea 3: Procedures and algorithms", summary: "Abstraction, PROCEDURE, libraries, RANDOM, simulations, the robot, efficiency, and problems no computer can solve.", barrons: "Chapter 4, Big Idea 3: What Is an Abstraction? (page 199), The Robot (page 216), and Procedures (page 266)" },
+    { id: "ap06", title: "Big Idea 4: Computer systems and networks", summary: "How the Internet works, fault tolerance, and parallel computing.", barrons: "Chapter 5, Big Idea 4: Computer Systems and Networks (pages 315–332), and The World Wide Web (page 333, in Chapter 6)" },
+    { id: "ap07", title: "Big Idea 5: Impact of computing", summary: "Good and bad effects, bias, the digital divide, privacy, and safe computing.", barrons: "Chapter 6, Big Idea 5: Impact of Computing (pages 333–358), and Privacy Concerns (page 167, in Chapter 3)" },
+    { id: "ap08", title: "The Create performance task", summary: "Plan and build your own program, and answer the written questions about it.", barrons: "Chapter 1, Create Performance Task (pages 45–132), with six full sample tasks" },
+    { id: "ap09", title: "Exam practice", summary: "Mixed AP-style questions from all five Big Ideas.", barrons: "Introduction: General Information About the Exam (page 1) and Hints for Taking the Exam (page 2), and the Diagnostic Test (page 3)" },
+    { id: "ap10", title: "Practice test", summary: "30 AP-style questions from all five Big Ideas. Take it like a real test.", barrons: "Practice Test 1 (page 359) and Practice Test 2 (page 393)" }
   ],
   // Fourth category: AP Psychology, in the order of the College Board course (Units 0-5). Topics follow
   // Barron's AP Psychology Premium and Myers' Psychology for the AP Course; the text is our own. Exercises are "mc".
+  // barrons: the matching part of Barron's AP Psychology Premium (2025 edition), shown on the chapter page.
   psChapters: [
-    { id: "ps01", title: "Unit 0: Research methods", summary: "Perspectives, hypotheses, variables, experiments, correlations, and other methods." },
-    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics." },
-    { id: "ps03", title: "Unit 1: Heredity, neurons, and drugs", summary: "Nature and nurture, the nervous system, neurons, neurotransmitters, hormones, and drugs." },
-    { id: "ps04", title: "Unit 1: The brain", summary: "Brain parts and what they do, the two hemispheres, plasticity, and brain scans." },
-    { id: "ps05", title: "Unit 1: Sleep and consciousness", summary: "Consciousness, circadian rhythm, sleep stages, sleep disorders, and dreams." },
-    { id: "ps06", title: "Unit 1: Sensation", summary: "Thresholds, vision, hearing, touch, pain, taste, smell, and body senses." },
-    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, and attention." },
-    { id: "ps08", title: "Unit 2: Thinking and problem solving", summary: "Concepts, algorithms, heuristics, biases, mental set, and creativity." },
-    { id: "ps09", title: "Unit 2: Memory", summary: "Encoding, storage, retrieval, forgetting, and why memories can be wrong." },
-    { id: "ps10", title: "Unit 2: Intelligence and testing", summary: "Theories of intelligence, IQ tests, reliability, validity, and test bias." },
-    { id: "ps11", title: "Unit 3: Development across the lifespan", summary: "Prenatal growth, Piaget, attachment, Erikson, language, and gender development." },
-    { id: "ps12", title: "Unit 3: Learning", summary: "Classical conditioning, operant conditioning, schedules, and learning by watching others." },
-    { id: "ps13", title: "Unit 4: Social psychology", summary: "Attribution, attitudes, conformity, obedience, groups, prejudice, and helping." },
-    { id: "ps14", title: "Unit 4: Personality", summary: "Psychodynamic, humanistic, social-cognitive, and trait theories, and how to measure personality." },
-    { id: "ps15", title: "Unit 4: Motivation and emotion", summary: "Theories of motivation, hunger, theories of emotion, and how people show emotion." },
-    { id: "ps16", title: "Unit 5: Health and positive psychology", summary: "Stress, coping, illness, and what makes people well and happy." },
-    { id: "ps17", title: "Unit 5: Psychological disorders", summary: "How disorders are defined and classified, and the main categories in the DSM-5-TR." },
-    { id: "ps18", title: "Unit 5: Treatment", summary: "Psychodynamic, humanistic, behavioral, cognitive, group, and biological therapies." },
-    { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions." },
+    { id: "ps01", title: "Unit 0: Research methods", summary: "Perspectives, hypotheses, variables, experiments, correlations, and other methods.", barrons: "Chapter 1, History of Psychology, and Chapter 2, Research Methods" },
+    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics.", barrons: "Chapter 3, Statistics (with APA Ethical Guidelines)" },
+    { id: "ps03", title: "Unit 1: Heredity, neurons, and drugs", summary: "Nature and nurture, the nervous system, neurons, neurotransmitters, hormones, and drugs.", barrons: "Chapter 4, Biological Bases of Behavior (Genetics, Nervous System, Endocrine System), and the Drugs section of Chapter 5" },
+    { id: "ps04", title: "Unit 1: The brain", summary: "Brain parts and what they do, the two hemispheres, plasticity, and brain scans.", barrons: "Chapter 4, Biological Bases of Behavior (The Brain)" },
+    { id: "ps05", title: "Unit 1: Sleep and consciousness", summary: "Consciousness, circadian rhythm, sleep stages, sleep disorders, and dreams.", barrons: "Chapter 5, States of Consciousness (Levels of Consciousness, Sleep, Dreams)" },
+    { id: "ps06", title: "Unit 1: Sensation", summary: "Thresholds, vision, hearing, touch, pain, taste, smell, and body senses.", barrons: "Chapter 6, Sensation" },
+    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, and attention.", barrons: "Chapter 7, Perception" },
+    { id: "ps08", title: "Unit 2: Thinking and problem solving", summary: "Concepts, algorithms, heuristics, biases, mental set, and creativity.", barrons: "Chapter 8, Thinking and Creativity" },
+    { id: "ps09", title: "Unit 2: Memory", summary: "Encoding, storage, retrieval, forgetting, and why memories can be wrong.", barrons: "Chapter 9, Memory" },
+    { id: "ps10", title: "Unit 2: Intelligence and testing", summary: "Theories of intelligence, IQ tests, reliability, validity, and test bias.", barrons: "Chapter 10, Testing and Individual Differences" },
+    { id: "ps11", title: "Unit 3: Development across the lifespan", summary: "Prenatal growth, Piaget, attachment, Erikson, language, and gender development.", barrons: "Chapter 11, Developmental Psychology" },
+    { id: "ps12", title: "Unit 3: Learning", summary: "Classical conditioning, operant conditioning, schedules, and learning by watching others.", barrons: "Chapter 12, Learning" },
+    { id: "ps13", title: "Unit 4: Social psychology", summary: "Attribution, attitudes, conformity, obedience, groups, prejudice, and helping.", barrons: "Chapter 13, Social Psychology" },
+    { id: "ps14", title: "Unit 4: Personality", summary: "Psychodynamic, humanistic, social-cognitive, and trait theories, and how to measure personality.", barrons: "Chapter 14, Personality" },
+    { id: "ps15", title: "Unit 4: Motivation and emotion", summary: "Theories of motivation, hunger, theories of emotion, and how people show emotion.", barrons: "Chapter 15, Motivation and Emotion" },
+    { id: "ps16", title: "Unit 5: Health and positive psychology", summary: "Stress, coping, illness, and what makes people well and happy.", barrons: "Chapter 16, Health Psychology" },
+    { id: "ps17", title: "Unit 5: Psychological disorders", summary: "How disorders are defined and classified, and the main categories in the DSM-5-TR.", barrons: "Chapter 17, Psychological Disorders" },
+    { id: "ps18", title: "Unit 5: Treatment", summary: "Psychodynamic, humanistic, behavioral, cognitive, group, and biological therapies.", barrons: "Chapter 18, Treatment of Psychological Disorders" },
+    { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions.", barrons: "Chapter 19, Multiple-Choice Test-Taking Tips, and Chapter 20, Answering Free-Response Questions" },
     { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units." }
   ],
   projects: [
-    { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html" },
+    { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html", barrons: "the Unit 1-5 Multiple-Choice Questions, and Practice Tests 1 and 2" },
     { id: "proj-quiz", title: "Quiz app", summary: "A quiz about any topic you like, with a score at the end.", fileName: "my-quiz.html" },
     { id: "proj-todo", title: "To-do list", summary: "Add, finish, and delete tasks. The list is saved in the browser.", fileName: "my-todo-list.html" }
   ]

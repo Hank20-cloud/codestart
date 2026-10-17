@@ -36,7 +36,7 @@
     {
       id: "ap", title: "AP Computer Science Principles", lang: "AP pseudocode and Python", icon: "AP",
       summary: "The AP CSP course, Big Idea by Big Idea, with AP-style practice questions. Do Programming basics first.",
-      chapters: CODESTART.apChapters, projects: [],
+      chapters: CODESTART.apChapters, projects: [], book: "AP Computer Science Principles Premium, 2027",
       done: "Finish with the Create performance task, exam practice, and a practice test.",
       note: '<strong>Read chapter 8 early.</strong> In the real AP course you build your own program (the Create performance task) ' +
         'during the school year and submit it <em>before</em> the exam. Read <a href="#/ap08">chapter 8</a> before you start your program, ' +
@@ -45,7 +45,7 @@
     {
       id: "psych", title: "AP Psychology", lang: "No code. Lessons and AP-style questions", icon: "Ψ",
       summary: "The AP Psychology course, unit by unit, with AP-style practice questions and exam skills.",
-      chapters: CODESTART.psChapters, projects: [],
+      chapters: CODESTART.psChapters, projects: [], book: "AP Psychology Premium, 2025",
       done: "Finish with exam skills and mixed exam practice."
     }
   ];
@@ -190,6 +190,7 @@
       '<div class="breadcrumb">' + categoryCrumb(unit) + "</div>" +
       "<h1>" + esc(unitHeading(unit)) + "</h1>" +
       '<p class="muted">' + esc(unit.summary) + "</p>" +
+      (unit.barrons ? '<p class="muted"><strong>In the Barron\'s book</strong> (' + esc(categoryOf(unit).book) + "): " + esc(unit.barrons) + ".</p>" : "") +
       (unit.intro ? '<div class="lesson">' + unit.intro + "</div>" : "") +
       (lessons ? '<h2>Lessons</h2><ul class="card-list">' + lessons + "</ul>" : "") +
       (exercises ? "<h2>" + (project ? "Steps" : "Exercises") + '</h2><ul class="card-list">' + exercises + "</ul>" : ""),
