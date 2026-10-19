@@ -224,6 +224,7 @@
       crumbs(unit) +
       "<h1>" + esc(lesson.title) + "</h1>" +
       '<p class="muted">Lesson ' + (index + 1) + " of " + unit.lessons.length + "</p>" +
+      (lesson.barrons ? '<p class="muted"><strong>In the Barron\'s book</strong> (' + esc(categoryOf(unit).book) + "): " + esc(lesson.barrons) + ".</p>" : "") +
       '<div class="lesson">' + lesson.html + "</div>" +
       '<div class="actions">' +
         '<a class="btn secondary" href="' + prev + '">← Back</a>' +
