@@ -47,6 +47,12 @@
       summary: "The AP Psychology course, unit by unit, with AP-style practice questions and exam skills.",
       chapters: CODESTART.psChapters, projects: [], book: "AP Psychology Premium, 2027",
       done: "Finish with exam skills and mixed exam practice."
+    },
+    {
+      id: "math11", title: "Math 11 Pre-Calculus", lang: "No code. Lessons and practice questions", icon: "x²",
+      summary: "Chapter 2, Rational Functions: sections 2.1 to 2.4, with key formulas and practice questions.",
+      chapters: CODESTART.maChapters, projects: [],
+      done: "Each chapter matches one section of Chapter 2 in the textbook."
     }
   ];
 
@@ -782,7 +788,7 @@
       Tutor.ask({
         exerciseId: ex.id,
         language: ex.type === "py" ? "Python" : ex.type === "html" ? "HTML and CSS"
-          : ex.type === "mc" ? (/^ps/.test(ex.id) ? "AP Psychology multiple-choice question" : "AP CSP multiple-choice question")
+          : ex.type === "mc" ? (/^ps/.test(ex.id) ? "AP Psychology multiple-choice question" : /^ma/.test(ex.id) ? "Math 11 Pre-Calculus multiple-choice question" : "AP CSP multiple-choice question")
           : "JavaScript",
         title: ex.title,
         instructions: plainText(ex.instructions),

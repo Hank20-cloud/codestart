@@ -92,6 +92,14 @@ var CODESTART = {
     { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions.", barrons: "Chapter 19, Multiple-Choice Test-Taking Tips (page 210), and Chapter 20, Answering Free-Response Questions (page 219)" },
     { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units.", barrons: "the Review Questions at the end of Chapters 4–18, and Practice Tests 1, 2, and 3 (pages 239, 271, and 305)" }
   ],
+  // Fifth category: Math 11 Pre-Calculus, Chapter 2 (Rational Functions) of the class textbook (Crescent Beach Publishing),
+  // one chapter per section 2.1-2.4. Taken from the owner's photos of the textbook; our own text. Exercises are "mc".
+  maChapters: [
+    { id: "ma01", title: "2.1 Properties of rational expressions", summary: "Rational expressions, undefined values, restrictions, and simplifying to lowest terms." },
+    { id: "ma02", title: "2.2 Multiplying and dividing", summary: "Multiply rational expressions, and divide by multiplying by the reciprocal." },
+    { id: "ma03", title: "2.3 Adding and subtracting", summary: "Like denominators, the LCD (Least Common Denominator), and unlike denominators." },
+    { id: "ma04", title: "2.4 Mixed operations", summary: "Order of operations (BEDMAS) and complex fractions." }
+  ],
   projects: [
     { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html" },
     { id: "proj-quiz", title: "Quiz app", summary: "A quiz about any topic you like, with a score at the end.", fileName: "my-quiz.html" },
@@ -100,7 +108,7 @@ var CODESTART = {
 };
 
 // Each chapter's "Next chapter" button goes to the following chapter in the same category.
-[CODESTART.chapters, CODESTART.pyChapters, CODESTART.pyProjects, CODESTART.apChapters, CODESTART.psChapters].forEach(function (list) {
+[CODESTART.chapters, CODESTART.pyChapters, CODESTART.pyProjects, CODESTART.apChapters, CODESTART.psChapters, CODESTART.maChapters].forEach(function (list) {
   list.forEach(function (c, i) {
     var next = list[i + 1];
     if (next) c.next = next.id;
@@ -108,7 +116,7 @@ var CODESTART = {
 });
 
 function allUnits() {
-  return CODESTART.chapters.concat(CODESTART.projects, CODESTART.pyChapters, CODESTART.pyProjects, CODESTART.apChapters, CODESTART.psChapters);
+  return CODESTART.chapters.concat(CODESTART.projects, CODESTART.pyChapters, CODESTART.pyProjects, CODESTART.apChapters, CODESTART.psChapters, CODESTART.maChapters);
 }
 
 // Called by each content file to attach its content to a chapter or project.
