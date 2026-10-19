@@ -12,6 +12,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l1",
       title: "Sensation, perception, and thresholds",
+      barrons: "Chapter 6, Sensation: Overview (page 49), and Chapter 7, Perception: Thresholds (page 61)",
       html: `
         <p><strong>Sensation</strong> is the process by which our sense organs detect energy from the environment (light, sound,
         pressure, chemicals). <strong>Perception</strong> is the process by which the brain organizes and interprets that information.
@@ -42,6 +43,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l2",
       title: "Vision: light and the eye",
+      barrons: "Chapter 6, Sensation: Energy Senses (page 50)",
       html: `
         <p>The eye senses <strong>light</strong>, a form of electromagnetic energy. Two features of light matter:</p>
         <ul>
@@ -75,6 +77,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l3",
       title: "Color vision and feature detectors",
+      barrons: "Chapter 6, Sensation: Energy Senses (page 50)",
       html: `
         <h3>Two theories of color vision</h3>
         <table>
@@ -99,6 +102,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l4",
       title: "Hearing",
+      barrons: "Chapter 6, Sensation: Energy Senses (page 50)",
       html: `
         <p><strong>Audition</strong> is the sense of hearing. Sound is a wave of pressure moving through air.</p>
         <ul>
@@ -132,6 +136,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l5",
       title: "Touch, pain, taste, and smell",
+      barrons: "Chapter 6, Sensation: Energy Senses (page 50) and Chemical Senses (page 54)",
       html: `
         <h3>Touch and pain</h3>
         <p>The skin senses four basic things: <strong>pressure, warmth, cold, and pain</strong>. Other feelings are mixtures, for example
@@ -156,6 +161,7 @@ addChapterContent("ps06", {
     {
       id: "ps06-l6",
       title: "Body senses and sensory interaction",
+      barrons: "Chapter 6, Sensation: Body Position Senses (page 55)",
       html: `
         <table>
           <tr><th>Sense</th><th>What it tells you</th><th>Where the receptors are</th><th>Example</th></tr>

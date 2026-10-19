@@ -13,6 +13,7 @@ addChapterContent("ps16", {
     {
       id: "ps16-l1",
       title: "Stress and stressors",
+      barrons: "Chapter 16, Health Psychology: Stress (page 179)",
       html: `
         <p><strong>Stress</strong> is the process by which we notice and respond to events that we judge as threatening or challenging.
         A <strong>stressor</strong> is the event that causes stress. How we <em>appraise</em> (judge) the event matters: a test can feel like a
@@ -34,6 +35,7 @@ addChapterContent("ps16", {
     {
       id: "ps16-l2",
       title: "The body's stress response",
+      barrons: "Chapter 16, Health Psychology: Stress (page 179)",
       html: `
         <h3>Fight-or-flight</h3>
         <p>Walter Cannon described the <strong>fight-or-flight response</strong>: the <strong>sympathetic nervous system</strong> quickly prepares the body to fight or run away.
@@ -63,6 +65,7 @@ addChapterContent("ps16", {
     {
       id: "ps16-l3",
       title: "Coping with stress",
+      barrons: "Chapter 16, Health Psychology: Stress (page 179)",
       html: `
         <p><strong>Coping</strong> means reducing stress with emotional, mental, or behavioral methods.</p>
         <table>
@@ -89,6 +92,7 @@ addChapterContent("ps16", {
     {
       id: "ps16-l4",
       title: "Positive psychology and well-being",
+      barrons: "Chapter 16, Health Psychology: Positive Psychology (page 181)",
       html: `
         <p><strong>Positive psychology</strong> is the scientific study of human strengths and what helps people and communities flourish (do well).
         Martin <strong>Seligman</strong> is its main founder. He asked psychologists to study not only problems but also strengths.</p>
@@ -106,6 +110,7 @@ addChapterContent("ps16", {
     {
       id: "ps16-l5",
       title: "What affects happiness",
+      barrons: "Chapter 16, Health Psychology: Positive Psychology (page 181)",
       html: `
         <h3>Two comparison effects</h3>
         <ul>

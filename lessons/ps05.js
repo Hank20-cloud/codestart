@@ -14,6 +14,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l1",
       title: "Consciousness, dual processing, and attention",
+      barrons: "Chapter 5, States of Consciousness: Levels of Consciousness (page 39)",
       html: `
         <p><strong>Consciousness</strong> is our awareness of ourselves and of the world around us. Right now you are
         conscious of these words. Sleep, dreaming, and deep focus are different <strong>states of consciousness</strong>.
@@ -37,6 +38,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l2",
       title: "Circadian rhythm and the body clock",
+      barrons: "Chapter 5, States of Consciousness: Sleep (page 42)",
       html: `
         <p>A <strong>circadian rhythm</strong> is the body's natural cycle of about 24 hours. It controls when we feel
         awake or sleepy, and it also changes body temperature and hormones during the day. For example, many teenagers feel
@@ -64,6 +66,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l3",
       title: "The stages of sleep",
+      barrons: "Chapter 5, States of Consciousness: Sleep (page 42)",
       html: `
         <p>Scientists study sleep with an <strong>EEG (electroencephalogram)</strong>, a machine that records the electrical
         activity of the brain through small sensors on the head. The EEG shows different <strong>brain waves</strong>.</p>
@@ -95,6 +98,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l4",
       title: "Why we sleep, and sleep deprivation",
+      barrons: "Chapter 5, States of Consciousness: Sleep (page 42)",
       html: `
         <p>Scientists have several ideas about why we sleep. They probably are all partly true.</p>
         <table>
@@ -121,6 +125,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l5",
       title: "Sleep disorders",
+      barrons: "Chapter 5, States of Consciousness: Sleep (page 42)",
       html: `
         <table>
           <tr><th>Disorder</th><th>What happens</th><th>Example</th></tr>
@@ -139,6 +144,7 @@ addChapterContent("ps05", {
     {
       id: "ps05-l6",
       title: "Why do we dream?",
+      barrons: "Chapter 5, States of Consciousness: Dreams (page 45)",
       html: `
         <p>A <strong>dream</strong> is a series of images, feelings, and stories that the mind creates during sleep, most often in REM.
         Psychologists have several theories about why we dream.</p>

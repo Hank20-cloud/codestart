@@ -14,6 +14,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l1",
       title: "Measures of central tendency",
+      barrons: "Chapter 3, Statistics and Ethics in Research: Descriptive Statistics (page 13)",
       html: `
         <p><strong>Descriptive statistics</strong> describe a set of data. A <strong>measure of central tendency</strong> is one number
         that shows the "middle" or typical score.</p>
@@ -41,6 +42,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l2",
       title: "Variation and the normal curve",
+      barrons: "Chapter 3, Statistics and Ethics in Research: Descriptive Statistics (page 13)",
       html: `
         <p>A <strong>measure of variation</strong> shows how spread out the scores are.</p>
         <ul>
@@ -71,6 +73,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l3",
       title: "Correlation and regression toward the mean",
+      barrons: "Chapter 3, Statistics and Ethics in Research: Correlations (page 15)",
       html: `
         <p>The <strong>correlation coefficient</strong> (written <em>r</em>) is a number from -1.00 to +1.00 that shows how strongly two
         variables are related.</p>
@@ -95,6 +98,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l4",
       title: "Is the result real? Significance and effect size",
+      barrons: "Chapter 3, Statistics and Ethics in Research: Inferential Statistics (page 16)",
       html: `
         <p><strong>Inferential statistics</strong> help researchers decide whether a result from a sample is true for the population,
         or whether it happened only by chance.</p>
@@ -115,6 +119,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l5",
       title: "Research ethics with people",
+      barrons: "Chapter 3, Statistics and Ethics in Research: APA Ethical Guidelines (page 17)",
       html: `
         <p>The <strong>APA (American Psychological Association)</strong> has rules called an ethics code. Before a study begins, an
         <strong>IRB (institutional review board)</strong>, a group at a university or hospital, reads the plan and must approve it.</p>
@@ -136,6 +141,7 @@ addChapterContent("ps02", {
     {
       id: "ps02-l6",
       title: "Research ethics with animals",
+      barrons: "Chapter 3, Statistics and Ethics in Research: APA Ethical Guidelines (page 17)",
       html: `
         <p>Psychologists sometimes study animals, for example to learn how the brain works or how learning happens, when the same
         study would be impossible or wrong with humans.</p>

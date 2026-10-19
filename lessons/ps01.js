@@ -14,6 +14,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l1",
       title: "Psychology as a science, and its perspectives",
+      barrons: "Chapter 1, History of Psychology: Psychological Perspectives (page 3)",
       html: `
         <p>Psychology uses the <strong>scientific method</strong>: people make an idea, test it with careful observation,
         and change the idea if the data do not support it. A scientist has a <strong>scientific attitude</strong>:
@@ -54,6 +55,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l2",
       title: "Why we need science: hindsight bias and overconfidence",
+      barrons: "Chapter 2, Research Methods: Overview (page 7)",
       html: `
         <p>Common sense often seems right, but it can fool us. Two errors show why we need careful research.</p>
         <ul>
@@ -82,6 +84,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l3",
       title: "Experiments",
+      barrons: "Chapter 2, Research Methods: Hypotheses and Variables (page 8) and Experimental Method (page 9)",
       html: `
         <p>An <strong>experiment</strong> is the only method that can show <strong>cause and effect</strong>. The researcher
         changes one thing and measures what happens, while keeping everything else the same.</p>
@@ -112,6 +115,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l4",
       title: "Bias in experiments: placebos and blind studies",
+      barrons: "Chapter 2, Research Methods: Experimental Method (page 9)",
       html: `
         <p>What people expect can change the result of a study. Researchers use several tools to stop this.</p>
         <ul>
@@ -137,6 +141,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l5",
       title: "Non-experimental methods",
+      barrons: "Chapter 2, Research Methods: Correlational Method (page 11), Naturalistic Observation (page 12), and Qualitative Methods (page 12)",
       html: `
         <p>Not every question can be tested with an experiment. It would be wrong, for example, to make children grow up
         poor to see the effect. Then researchers use other methods. These methods <strong>describe</strong> or
@@ -169,6 +174,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l6",
       title: "Data, replication, and peer review",
+      barrons: "Chapter 2, Research Methods: Qualitative Methods (page 12), and Chapter 3: Inferential Statistics (page 16)",
       html: `
         <ul>
           <li><strong>Quantitative data</strong> are numbers, for example a score from 1 to 10 or a reaction time in seconds.</li>
@@ -187,6 +193,7 @@ addChapterContent("ps01", {
     {
       id: "ps01-l7",
       title: "Validity and reliability",
+      barrons: "Chapter 2, Research Methods: Validity and Reliability (page 8)",
       html: `
         <p>Good research must be both <strong>valid</strong> and <strong>reliable</strong>.</p>
         <table>

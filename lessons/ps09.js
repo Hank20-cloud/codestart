@@ -15,6 +15,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l1",
       title: "Types of memory",
+      barrons: "Chapter 9, Memory: Long-Term Memory (page 80)",
       html: `
         <p>Psychologists divide long-term memory into two big groups.</p>
         <h3>Explicit memory</h3>
@@ -52,6 +53,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l2",
       title: "Models of memory",
+      barrons: "Chapter 9, Memory: Three-Box/Information-Processing Model (page 79) to Levels of Processing Model (page 81)",
       html: `
         <h3>The multi-store model</h3>
         <p>Richard <strong>Atkinson</strong> and Richard <strong>Shiffrin</strong> described the
@@ -91,6 +93,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l3",
       title: "Encoding: getting information in",
+      barrons: "Chapter 9, Memory: Encoding Memories (page 81)",
       html: `
         <h3>Automatic and effortful processing</h3>
         <p><strong>Automatic processing</strong> is encoding that happens without effort or attention. Example: you know
@@ -126,6 +129,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l4",
       title: "Retrieval: getting information out",
+      barrons: "Chapter 9, Memory: Retrieval (page 83)",
       html: `
         <h3>Three ways to measure memory</h3>
         <ul>
@@ -159,6 +163,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l5",
       title: "Forgetting and memory problems",
+      barrons: "Chapter 9, Memory: Forgetting (page 83)",
       html: `
         <h3>The forgetting curve</h3>
         <p>Hermann <strong>Ebbinghaus</strong> learned lists of nonsense syllables (like "DAX" and "WUP") and tested himself.
@@ -191,6 +196,7 @@ addChapterContent("ps09", {
     {
       id: "ps09-l6",
       title: "Memory construction and the brain",
+      barrons: "Chapter 9, Memory: Storing Memories (page 82) and Constructive Memory (page 83)",
       html: `
         <h3>Memories are rebuilt, not replayed</h3>
         <p>A memory is not like a video. Each time you retrieve it, you rebuild it, and it can change. This is called

@@ -15,6 +15,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l1",
       title: "Studying development",
+      barrons: "Chapter 11, Developmental Psychology: Developmental Psychology Research Methods (page 104)",
       html: `
         <h3>Research designs</h3>
         <table>
@@ -37,6 +38,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l2",
       title: "Physical development from before birth to old age",
+      barrons: "Chapter 11, Developmental Psychology: Prenatal Influences (page 104) and Motor/Sensory Development (page 105)",
       html: `
         <h3>Prenatal development</h3>
         <p><strong>Prenatal</strong> means before birth. There are three stages:</p>
@@ -82,6 +84,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l3",
       title: "Cognitive development: Piaget and Vygotsky",
+      barrons: "Chapter 11, Developmental Psychology: Stage Theories (page 107) and Cognitive Development (page 108)",
       html: `
         <h3>Piaget's ideas</h3>
         <p>Jean <strong>Piaget</strong> said children are active thinkers who build their understanding of the world.</p>
@@ -116,6 +119,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l4",
       title: "Language development",
+      barrons: "Chapter 11, Developmental Psychology: Language (page 110)",
       html: `
         <h3>Building blocks of language</h3>
         <ul>
@@ -147,6 +151,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l5",
       title: "Attachment, temperament, and parenting",
+      barrons: "Chapter 11, Developmental Psychology: Parenting (page 112)",
       html: `
         <p><strong>Attachment</strong> is a strong emotional bond between a child and a caregiver.</p>
         <h3>Harlow's monkeys</h3>
@@ -189,6 +194,7 @@ addChapterContent("ps11", {
     {
       id: "ps11-l6",
       title: "Erikson's stages and gender development",
+      barrons: "Chapter 11, Developmental Psychology: Gender and Development (page 106) and Stage Theories (page 107)",
       html: `
         <h3>Erikson's psychosocial stages</h3>
         <p>Erik <strong>Erikson</strong> said each stage of life has a <strong>psychosocial crisis</strong>, a main challenge
@@ -225,6 +231,74 @@ addChapterContent("ps11", {
           "for girls", and then use these schemas to organize their behavior. Example: a girl decides that trucks are "boy toys" and chooses not to play with them.</li>
         </ul>
         <div class="tip">On the exam, a teen who asks "Who am I?" is in Erikson's identity vs. role confusion stage.</div>
+      `
+    },
+    {
+      id: "ps11-l7",
+      title: "Sex hormones, sexual motivation, and sexual orientation",
+      barrons: "Chapter 15, Motivation and Emotion: Sexual Motivation (pages 169–170)",
+      html: `
+        <p>This lesson follows the <strong>Sexual Motivation</strong> section of the Barron's book (AP Psychology Premium, 2027,
+        Chapter 15, pages 169–170), in the same order, and adds what the AP course teaches about sex hormones. The text is our own,
+        in simple words. Read the book pages for more detail.</p>
+        <h3>Sexual motivation</h3>
+        <p><strong>Sexual motivation</strong> (sexual interest) helps a species continue, because it leads to reproduction. Like hunger
+        (our chapter 15, lesson 3), it has both <strong>biological</strong> and <strong>psychological</strong> causes.</p>
+        <p>The main biological cause is the <strong>sex hormones</strong>: <strong>testosterone</strong> (higher levels in males) and
+        the <strong>estrogens</strong> (higher levels in females). Everyone has both. They act at several times in life:</p>
+        <ul>
+          <li><strong>Before birth</strong>, they guide how the body develops as male or female.</li>
+          <li><strong>At puberty</strong>, a rise in these hormones starts the body changes of adolescence, such as the
+          <strong>primary</strong> and <strong>secondary sex characteristics</strong> from lesson 2.</li>
+          <li><strong>In adults</strong>, they are one source of sexual motivation.</li>
+        </ul>
+        <h3>Sexual Response Cycle</h3>
+        <p>In the 1960s, researchers <strong>William Masters</strong> and <strong>Virginia Johnson</strong> studied the body's sexual
+        responses in a laboratory. They described the <strong>sexual response cycle</strong>, four stages of body changes:</p>
+        <ol>
+          <li><strong>Initial excitement</strong>: heart rate and breathing start to increase.</li>
+          <li><strong>Plateau phase</strong>: heart rate and breathing stay high.</li>
+          <li><strong>Orgasm</strong>: the peak, with the highest heart rate and breathing.</li>
+          <li><strong>Resolution phase</strong>: the body slowly returns to normal. Males then have a <strong>refractory period</strong>,
+          a rest time before the cycle can happen again. Females usually do not have one.</li>
+        </ol>
+        <h3>Psychological Factors in Sexual Motivation</h3>
+        <p>In humans, hormones are only one cause. Sexual interest is also shaped by <strong>thoughts</strong>, <strong>emotions</strong>,
+        <strong>relationships</strong>, <strong>culture</strong>, and <strong>external stimuli</strong> (things a person sees, hears, or imagines).
+        For example, people who lose some physical abilities after an accident can still have sexual feelings. This shows that the mind plays a
+        large role. This is the <strong>biopsychosocial approach</strong> from our chapter 1, lesson 1.</p>
+        <h3>Sexual Orientation</h3>
+        <p><strong>Sexual orientation</strong> is the direction of a person's lasting sexual and emotional attraction:</p>
+        <table>
+          <tr><th>Orientation</th><th>Attraction to</th></tr>
+          <tr><td><strong>Heterosexual</strong></td><td>people of the other sex</td></tr>
+          <tr><td><strong>Same-sex</strong> (gay or lesbian)</td><td>people of the same sex</td></tr>
+          <tr><td><strong>Bisexual</strong></td><td>people of more than one sex or gender (for example, both males and females)</td></tr>
+          <tr><td><strong>Asexual</strong></td><td>little or no sexual attraction to anyone</td></tr>
+        </table>
+        <p>Sexual orientation is <strong>not</strong> the same as <strong>gender identity</strong> (lesson 6). Gender identity is about
+        <em>who you are</em>; sexual orientation is about <em>who you are attracted to</em>. A transgender person, for example, can have
+        any sexual orientation. Estimates of how many people identify as gay, lesbian, or bisexual are different in different countries and
+        surveys.</p>
+        <p>Research findings:</p>
+        <ul>
+          <li><strong>Early researchers</strong> such as <strong>Alfred Kinsey</strong> (the Kinsey Reports, 1940s and 1950s) showed that human
+          sexual behavior is much more varied than people believed.</li>
+          <li><strong>Environment and parenting:</strong> large studies found that sexual orientation is <strong>not</strong> caused by parenting
+          style, relationships with parents, or childhood experiences. People do not choose their orientation, and attempts to change it
+          do not work and can cause harm.</li>
+          <li><strong>Possible biological influences:</strong>
+            <ul>
+              <li><strong>Twin studies</strong>: identical twins are more likely than fraternal twins to share a same-sex orientation,
+              which suggests a genetic influence. But many identical twins differ, so genes are not the only cause.</li>
+              <li><strong>Prenatal hormones</strong>: hormones in the womb may affect brain development and orientation.</li>
+              <li><strong>Brain differences</strong>: some brain areas differ on average between gay and straight people. Scientists still
+              study whether these differences are a cause or an effect.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="tip">Gender identity = who you are. Sexual orientation = who you are attracted to. Evidence points to biological
+        influences (genes, prenatal hormones, brain), not to parenting.</div>
       `
     }
   ],
@@ -417,6 +491,44 @@ addChapterContent("ps11", {
       hints: [
         "The cloth mother did not give food, but the monkeys still chose her.",
         "What did the cloth mother give that the wire mother did not?"
+      ]
+    },
+    {
+      id: "ps11-ex11",
+      title: "Identity or orientation?",
+      type: "mc",
+      instructions: `<p>Alex says, "I have always known that I am a girl, even though people called me a boy when I was little." Which
+      concept does Alex's statement describe?</p>`,
+      choices: [
+        "Sexual orientation",
+        "Gender identity",
+        "Gender schema",
+        "Secondary sex characteristics"
+      ],
+      answer: 1,
+      explain: "Alex is describing her inner sense of her own gender, which is gender identity. Sexual orientation is about who a person is attracted to.",
+      hints: [
+        "Is Alex talking about who she <em>is</em>, or who she is attracted to?",
+        "A person's inner sense of their own gender has a name."
+      ]
+    },
+    {
+      id: "ps11-ex12",
+      title: "Science practice: twin studies",
+      type: "mc",
+      instructions: `<p>A researcher finds that when one identical twin has a same-sex orientation, the other twin is more likely to have one too
+      than in fraternal twins. What is the best conclusion?</p>`,
+      choices: [
+        "Sexual orientation is caused only by genes.",
+        "Sexual orientation is caused by the way parents raise their children.",
+        "Twins choose the same sexual orientation because they spend a lot of time together.",
+        "Genes probably influence sexual orientation, but they are not the only factor."
+      ],
+      answer: 3,
+      explain: "Identical twins share all their genes, so a higher match suggests a genetic influence. But not all identical twins match, so genes are not the only factor.",
+      hints: [
+        "Identical twins share more genes than fraternal twins.",
+        "If genes were the only cause, would identical twins ever be different?"
       ]
     }
   ]

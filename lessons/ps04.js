@@ -13,6 +13,7 @@ addChapterContent("ps04", {
     {
       id: "ps04-l1",
       title: "The brainstem and cerebellum",
+      barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)",
       html: `
         <p>The oldest parts of the brain sit at the bottom, where the spinal cord enters the skull. They control basic life functions
         that happen without thinking.</p>
@@ -29,6 +30,7 @@ addChapterContent("ps04", {
     {
       id: "ps04-l2",
       title: "Thalamus, hypothalamus, and the limbic system",
+      barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)",
       html: `
         <p>Above the brainstem are structures that relay senses and control emotions and drives.</p>
         <table>
@@ -50,6 +52,7 @@ addChapterContent("ps04", {
     {
       id: "ps04-l3",
       title: "The cerebral cortex and its lobes",
+      barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)",
       html: `
         <p>The <strong>cerebral cortex</strong> is the thin, wrinkled outer layer of the brain. It does the most complex thinking.
         It has four lobes (areas) in each hemisphere (half).</p>
@@ -79,6 +82,7 @@ addChapterContent("ps04", {
     {
       id: "ps04-l4",
       title: "Language, the two hemispheres, and split brains",
+      barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)",
       html: `
         <h3>Language areas</h3>
         <p>For most people, language is mainly in the left hemisphere.</p>
@@ -108,6 +112,7 @@ addChapterContent("ps04", {
     {
       id: "ps04-l5",
       title: "Plasticity and tools for studying the brain",
+      barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)",
       html: `
         <p><strong>Neuroplasticity</strong> (plasticity) is the brain's ability to change: to build new connections and, after damage, to let other
         areas take over some jobs. Plasticity is greatest in children. Example: a child who has a hemisphere removed because of seizures can often

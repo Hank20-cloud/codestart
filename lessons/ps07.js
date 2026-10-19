@@ -13,6 +13,7 @@ addChapterContent("ps07", {
     {
       id: "ps07-l1",
       title: "Bottom-up and top-down processing",
+      barrons: "Chapter 7, Perception: Perceptual Theories (page 62)",
       html: `
         <table>
           <tr><th>Type</th><th>Meaning</th><th>Example</th></tr>
@@ -37,6 +38,7 @@ addChapterContent("ps07", {
     {
       id: "ps07-l2",
       title: "Attention and what we miss",
+      barrons: "Chapter 9, Memory: Sensory Memory (page 80)",
       html: `
         <p><strong>Selective attention</strong> is focusing awareness on only one part of the information around us.</p>
         <p>The <strong>cocktail party effect</strong> is the ability to focus on one voice among many voices, while still noticing
@@ -56,6 +58,7 @@ addChapterContent("ps07", {
     {
       id: "ps07-l3",
       title: "Gestalt principles",
+      barrons: "Chapter 7, Perception: Principles of Visual Perception (page 63)",
       html: `
         <p><strong>Gestalt</strong> is a German word meaning "an organized whole". Gestalt psychologists showed that we tend to see
         whole patterns, not separate pieces: <em>the whole is different from the sum of its parts</em>.</p>
@@ -73,6 +76,7 @@ addChapterContent("ps07", {
     {
       id: "ps07-l4",
       title: "Depth perception",
+      barrons: "Chapter 7, Perception: Principles of Visual Perception (page 63)",
       html: `
         <p><strong>Depth perception</strong> is the ability to see objects in three dimensions and judge distance. Even though the retina is flat,
         we see the world in 3D.</p>
@@ -104,6 +108,7 @@ addChapterContent("ps07", {
     {
       id: "ps07-l5",
       title: "Constancy, motion, and illusions",
+      barrons: "Chapter 7, Perception: Principles of Visual Perception (page 63), Effects of Culture on Perception (page 66), and Extrasensory Perception (page 67)",
       html: `
         <h3>Perceptual constancy</h3>
         <p><strong>Perceptual constancy</strong> is seeing objects as unchanging, even when the image on the retina changes.</p>

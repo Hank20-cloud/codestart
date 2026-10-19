@@ -12,6 +12,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l1",
       title: "Nature, nurture, and genes",
+      barrons: "Chapter 4, Biological Bases of Behavior: Genetics (page 22)",
       html: `
         <p>The <strong>nature-nurture issue</strong> asks how much behavior comes from <strong>nature</strong> (genes we inherit) and how much
         from <strong>nurture</strong> (environment and experience). Today psychologists agree that both always work together.</p>
@@ -42,6 +43,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l2",
       title: "The nervous system",
+      barrons: "Chapter 4, Biological Bases of Behavior: Nervous System (page 25)",
       html: `
         <p>The nervous system is the body's fast communication network. It has two main parts.</p>
         <table>
@@ -74,6 +76,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l3",
       title: "Neurons and the action potential",
+      barrons: "Chapter 4, Biological Bases of Behavior: Neuroanatomy (page 23)",
       html: `
         <p>A <strong>neuron</strong> is a nerve cell, the basic unit of the nervous system.</p>
         <table>
@@ -103,6 +106,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l4",
       title: "The synapse and neurotransmitters",
+      barrons: "Chapter 4, Biological Bases of Behavior: Neuroanatomy (page 23)",
       html: `
         <p>Neurons do not touch. The tiny gap between the axon terminal of one neuron and the dendrite of the next is the <strong>synapse</strong>
         (or synaptic gap). When the action potential reaches the terminal, the neuron releases <strong>neurotransmitters</strong>, chemical
@@ -134,6 +138,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l5",
       title: "The endocrine system",
+      barrons: "Chapter 4, Biological Bases of Behavior: Endocrine System (page 27)",
       html: `
         <p>The <strong>endocrine system</strong> is the body's slower communication system. <strong>Glands</strong> release
         <strong>hormones</strong>, chemical messengers that travel in the blood. Hormones work slower than neurotransmitters, but their effects last longer.</p>
@@ -153,6 +158,7 @@ addChapterContent("ps03", {
     {
       id: "ps03-l6",
       title: "Psychoactive drugs",
+      barrons: "Chapter 5, States of Consciousness: Drugs (page 40)",
       html: `
         <p>A <strong>psychoactive drug</strong> is a chemical that changes perception, mood, or thinking, usually by acting at the synapse.</p>
         <ul>

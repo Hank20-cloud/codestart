@@ -13,6 +13,7 @@ addChapterContent("ps15", {
     {
       id: "ps15-l1",
       title: "Theories of motivation",
+      barrons: "Chapter 15, Motivation and Emotion: Theories of Motivation (page 166)",
       html: `
         <table>
           <tr><th>Theory</th><th>Main idea</th><th>Example</th></tr>
@@ -41,6 +42,7 @@ addChapterContent("ps15", {
     {
       id: "ps15-l2",
       title: "Needs, self-determination, and rewards",
+      barrons: "Chapter 15, Motivation and Emotion: Theories of Motivation (page 166) and Social Motivation (page 170)",
       html: `
         <h3>Maslow's hierarchy of needs</h3>
         <p>Abraham <strong>Maslow</strong> arranged needs in a pyramid. Lower needs must usually be met before higher needs become important.</p>
@@ -77,6 +79,7 @@ addChapterContent("ps15", {
     {
       id: "ps15-l3",
       title: "Hunger",
+      barrons: "Chapter 15, Motivation and Emotion: Hunger Motivation (page 168)",
       html: `
         <p>Hunger is controlled by the brain, mainly the <strong>hypothalamus</strong>, using signals from the body.</p>
         <table>
@@ -107,6 +110,7 @@ addChapterContent("ps15", {
     {
       id: "ps15-l4",
       title: "Theories of emotion",
+      barrons: "Chapter 15, Motivation and Emotion: Theories About Emotion (page 172)",
       html: `
         <p>The theories disagree about the order of three things: the event, the body arousal, and the feeling.</p>
         <table>
@@ -127,6 +131,7 @@ addChapterContent("ps15", {
     {
       id: "ps15-l5",
       title: "Expressing emotion",
+      barrons: "Chapter 15, Motivation and Emotion: Nonverbal Expressions of Emotion (page 173)",
       html: `
         <h3>Universal facial expressions</h3>
         <p>Paul <strong>Ekman</strong> found that people in many cultures, even isolated ones, recognize the same basic facial expressions, such as

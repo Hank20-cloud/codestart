@@ -13,6 +13,7 @@ addChapterContent("ps14", {
     {
       id: "ps14-l1",
       title: "The psychodynamic perspective",
+      barrons: "Chapter 14, Personality: Psychodynamic Theories of Personality (page 156)",
       html: `
         <p>The <strong>psychodynamic perspective</strong> says that personality is shaped by the <strong>unconscious</strong> mind: thoughts,
         wishes, and memories that we are not aware of but that still affect our behavior. It began with Sigmund <strong>Freud</strong>'s
@@ -38,6 +39,7 @@ addChapterContent("ps14", {
     {
       id: "ps14-l2",
       title: "Defense mechanisms and projective tests",
+      barrons: "Chapter 14, Personality: Psychodynamic Theories of Personality (page 156)",
       html: `
         <table>
           <tr><th>Defense mechanism</th><th>Meaning</th><th>Example</th></tr>
@@ -66,6 +68,7 @@ addChapterContent("ps14", {
     {
       id: "ps14-l3",
       title: "The humanistic perspective",
+      barrons: "Chapter 14, Personality: Humanistic Theories of Personality (page 158)",
       html: `
         <p>The <strong>humanistic perspective</strong> focuses on the healthy person's ability to grow and make free choices.
         It developed as a reaction against Freud (too negative) and behaviorism (too mechanical).</p>
@@ -89,6 +92,7 @@ addChapterContent("ps14", {
     {
       id: "ps14-l4",
       title: "Trait theories and measuring traits",
+      barrons: "Chapter 14, Personality: Trait Theories (page 158)",
       html: `
         <p>A <strong>trait</strong> is a stable pattern of behavior, thoughts, or feelings, for example being friendly or careful.
         <strong>Trait theories</strong> describe personality with traits instead of explaining hidden causes.</p>
@@ -118,6 +122,7 @@ addChapterContent("ps14", {
     {
       id: "ps14-l5",
       title: "Social-cognitive perspective, self, and culture",
+      barrons: "Chapter 14, Personality: Social Cognitive Theories (page 159)",
       html: `
         <p>The <strong>social-cognitive perspective</strong> says behavior comes from the interaction between our traits and thinking and our social situation.</p>
         <h3>Albert Bandura</h3>

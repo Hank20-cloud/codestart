@@ -16,6 +16,7 @@ addChapterContent("ps12", {
     {
       id: "ps12-l1",
       title: "Classical conditioning",
+      barrons: "Chapter 12, Learning: Classical Conditioning (page 122)",
       html: `
         <p><strong>Classical conditioning</strong> is learning to link two stimuli, so that one stimulus starts to cause a
         response that the other one caused. Ivan <strong>Pavlov</strong>, a Russian scientist, discovered it while studying
@@ -48,6 +49,7 @@ addChapterContent("ps12", {
     {
       id: "ps12-l2",
       title: "Classical conditioning in humans and biology",
+      barrons: "Chapter 12, Learning: Classical Conditioning (page 122)",
       html: `
         <h3>Watson and Little Albert</h3>
         <p>John B. <strong>Watson</strong>, a founder of behaviorism, said psychology should study only observable behavior.
@@ -72,6 +74,7 @@ addChapterContent("ps12", {
     {
       id: "ps12-l3",
       title: "Operant conditioning: reinforcement and punishment",
+      barrons: "Chapter 12, Learning: Operant Conditioning (page 125)",
       html: `
         <p><strong>Operant conditioning</strong> is learning in which behavior becomes more or less likely because of its
         <strong>consequences</strong> (what happens after the behavior).</p>
@@ -106,6 +109,7 @@ addChapterContent("ps12", {
     {
       id: "ps12-l4",
       title: "Schedules of reinforcement and limits of conditioning",
+      barrons: "Chapter 12, Learning: Operant Conditioning (page 125)",
       html: `
         <p>A <strong>schedule of reinforcement</strong> is the rule for when a behavior is reinforced.</p>
         <ul>
@@ -138,6 +142,7 @@ addChapterContent("ps12", {
     {
       id: "ps12-l5",
       title: "Cognitive and observational learning",
+      barrons: "Chapter 12, Learning: Cognitive Learning (page 129)",
       html: `
         <h3>Cognitive learning</h3>
         <p><strong>Cognitive learning</strong> is learning that involves thinking and mental processes, not only links between

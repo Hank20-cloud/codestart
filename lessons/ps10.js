@@ -16,6 +16,7 @@ addChapterContent("ps10", {
     {
       id: "ps10-l1",
       title: "Theories of intelligence",
+      barrons: "Chapter 10, Testing and Individual Differences: Theories of Intelligence (page 91)",
       html: `
         <p><strong>Intelligence</strong> is the ability to learn from experience, solve problems, and adapt to new situations.</p>
         <h3>One general ability or many?</h3>
@@ -46,6 +47,7 @@ addChapterContent("ps10", {
     {
       id: "ps10-l2",
       title: "The history of intelligence tests",
+      barrons: "Chapter 10, Testing and Individual Differences: Intelligence Tests (page 92)",
       html: `
         <h3>Binet and mental age</h3>
         <p>In France in the early 1900s, Alfred <strong>Binet</strong> made a test to find children who needed extra help in
@@ -71,6 +73,7 @@ addChapterContent("ps10", {
     {
       id: "ps10-l3",
       title: "Building a good test",
+      barrons: "Chapter 10, Testing and Individual Differences: Standardization and Norms (page 86), Reliability and Validity (page 91), and Types of Tests (page 91)",
       html: `
         <h3>Standardization and norms</h3>
         <p><strong>Standardization</strong> means giving a test in the same way to everyone, and comparing scores to a
@@ -116,6 +119,7 @@ addChapterContent("ps10", {
     {
       id: "ps10-l4",
       title: "Fairness: test bias and stereotype threat",
+      barrons: "Chapter 10, Testing and Individual Differences: Intelligence Tests (page 92)",
       html: `
         <p>A test has <strong>bias</strong> (test bias) if it predicts unfairly for one group, or if some questions need
         knowledge from one culture. Example: a question about a sport that is common in one country but unknown in another
@@ -133,6 +137,7 @@ addChapterContent("ps10", {
     {
       id: "ps10-l5",
       title: "Nature, nurture, and the range of intelligence",
+      barrons: "Chapter 10, Testing and Individual Differences: Nature vs. Nurture: Intelligence (page 93)",
       html: `
         <h3>Heredity and environment</h3>
         <p>Psychologists study intelligence with <strong>twin studies</strong> and <strong>adoption studies</strong>.</p>

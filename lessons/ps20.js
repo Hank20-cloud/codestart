@@ -12,6 +12,7 @@ addChapterContent("ps20", {
     {
       id: "ps20-l1",
       title: "How to use this chapter",
+      barrons: "the Review Questions at the end of Chapters 4–18, and Practice Test 1 (page 239), Practice Test 2 (page 271), and Practice Test 3 (page 305)",
       html: `
         <p>Use these questions like a small practice test.</p>
         <ul>

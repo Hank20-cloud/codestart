@@ -68,28 +68,29 @@ var CODESTART = {
   ],
   // Fourth category: AP Psychology, in the order of the College Board course (Units 0-5). Topics follow
   // Barron's AP Psychology Premium and Myers' Psychology for the AP Course; the text is our own. Exercises are "mc".
-  // barrons: the matching part of Barron's AP Psychology Premium (2027 edition), shown on the chapter page.
+  // barrons: the matching part of Barron's AP Psychology Premium (2027 edition), shown on the chapter page. Lessons
+  // have their own barrons field with the section and page.
   psChapters: [
-    { id: "ps01", title: "Unit 0: Research methods", summary: "History, perspectives, hypotheses, variables, experiments, correlations, other methods, validity, and reliability.", barrons: "Chapter 1, History of Psychology, and Chapter 2, Research Methods" },
-    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics.", barrons: "Chapter 3, Statistics and Ethics in Research" },
-    { id: "ps03", title: "Unit 1: Heredity, neurons, and drugs", summary: "Nature and nurture, the nervous system, neurons, neurotransmitters, hormones, and drugs.", barrons: "Chapter 4, Biological Bases of Behavior (Genetics, Nervous System, Endocrine System), and the Drugs section of Chapter 5" },
-    { id: "ps04", title: "Unit 1: The brain", summary: "Brain parts and what they do, the two hemispheres, plasticity, and brain scans.", barrons: "Chapter 4, Biological Bases of Behavior (The Brain)" },
-    { id: "ps05", title: "Unit 1: Sleep and consciousness", summary: "Consciousness, circadian rhythm, sleep stages, sleep disorders, and dreams.", barrons: "Chapter 5, States of Consciousness (Levels of Consciousness, Sleep, Dreams)" },
-    { id: "ps06", title: "Unit 1: Sensation", summary: "Thresholds, vision, hearing, touch, pain, taste, smell, and body senses.", barrons: "Chapter 6, Sensation" },
-    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, attention, and ESP claims.", barrons: "Chapter 7, Perception" },
-    { id: "ps08", title: "Unit 2: Thinking and problem solving", summary: "Concepts, algorithms, heuristics, biases, mental set, and creativity.", barrons: "Chapter 8, Thinking and Creativity" },
-    { id: "ps09", title: "Unit 2: Memory", summary: "Encoding, storage, retrieval, forgetting, and why memories can be wrong.", barrons: "Chapter 9, Memory" },
-    { id: "ps10", title: "Unit 2: Intelligence and testing", summary: "Theories of intelligence, IQ tests, reliability, validity, and test bias.", barrons: "Chapter 10, Testing and Individual Differences" },
-    { id: "ps11", title: "Unit 3: Development across the lifespan", summary: "Prenatal growth, Piaget, attachment, Erikson, language, and gender development.", barrons: "Chapter 11, Developmental Psychology" },
-    { id: "ps12", title: "Unit 3: Learning", summary: "Classical conditioning, operant conditioning, schedules, and learning by watching others.", barrons: "Chapter 12, Learning" },
-    { id: "ps13", title: "Unit 4: Social psychology", summary: "Attribution, attitudes, conformity, obedience, groups, prejudice, and helping.", barrons: "Chapter 13, Social Psychology" },
-    { id: "ps14", title: "Unit 4: Personality", summary: "Psychodynamic, humanistic, social-cognitive, and trait theories, and how to measure personality.", barrons: "Chapter 14, Personality" },
-    { id: "ps15", title: "Unit 4: Motivation and emotion", summary: "Theories of motivation, hunger, theories of emotion, and how people show emotion.", barrons: "Chapter 15, Motivation and Emotion" },
-    { id: "ps16", title: "Unit 5: Health and positive psychology", summary: "Stress, coping, illness, and what makes people well and happy.", barrons: "Chapter 16, Health Psychology" },
-    { id: "ps17", title: "Unit 5: Psychological disorders", summary: "How disorders are defined and classified, and the main categories in the DSM-5-TR.", barrons: "Chapter 17, Psychological Disorders" },
-    { id: "ps18", title: "Unit 5: Treatment", summary: "Psychodynamic, humanistic, behavioral, cognitive, group, and biological therapies.", barrons: "Chapter 18, Treatment of Psychological Disorders" },
-    { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions.", barrons: "Chapter 19, Multiple-Choice Test-Taking Tips, and Chapter 20, Answering Free-Response Questions" },
-    { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units.", barrons: "the Review Questions at the end of Chapters 4-18, and Practice Tests 1, 2, and 3" }
+    { id: "ps01", title: "Unit 0: Research methods", summary: "History, perspectives, hypotheses, variables, experiments, correlations, other methods, validity, and reliability.", barrons: "Chapter 1, History of Psychology (page 3), and Chapter 2, Research Methods (page 7)" },
+    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics.", barrons: "Chapter 3, Statistics and Ethics in Research (page 13)" },
+    { id: "ps03", title: "Unit 1: Heredity, neurons, and drugs", summary: "Nature and nurture, the nervous system, neurons, neurotransmitters, hormones, and drugs.", barrons: "Chapter 4, Biological Bases of Behavior: Genetics, Neuroanatomy, Nervous System, and Endocrine System (pages 22–27), and Chapter 5: Drugs (page 40)" },
+    { id: "ps04", title: "Unit 1: The brain", summary: "Brain parts and what they do, the two hemispheres, plasticity, and brain scans.", barrons: "Chapter 4, Biological Bases of Behavior: The Brain (page 27)" },
+    { id: "ps05", title: "Unit 1: Sleep and consciousness", summary: "Consciousness, circadian rhythm, sleep stages, sleep disorders, and dreams.", barrons: "Chapter 5, States of Consciousness (page 39)" },
+    { id: "ps06", title: "Unit 1: Sensation", summary: "Thresholds, vision, hearing, touch, pain, taste, smell, and body senses.", barrons: "Chapter 6, Sensation (page 49)" },
+    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, attention, and ESP claims.", barrons: "Chapter 7, Perception (page 61)" },
+    { id: "ps08", title: "Unit 2: Thinking and problem solving", summary: "Concepts, algorithms, heuristics, biases, mental set, and creativity.", barrons: "Chapter 8, Thinking and Creativity (page 71)" },
+    { id: "ps09", title: "Unit 2: Memory", summary: "Encoding, storage, retrieval, forgetting, and why memories can be wrong.", barrons: "Chapter 9, Memory (page 79)" },
+    { id: "ps10", title: "Unit 2: Intelligence and testing", summary: "Theories of intelligence, IQ tests, reliability, validity, and test bias.", barrons: "Chapter 10, Testing and Individual Differences (page 85)" },
+    { id: "ps11", title: "Unit 3: Development across the lifespan", summary: "Prenatal growth, Piaget, attachment, Erikson, language, gender development, and sexual orientation.", barrons: "Chapter 11, Developmental Psychology (page 103), and the Sexual Motivation section of Chapter 15 (pages 169–170)" },
+    { id: "ps12", title: "Unit 3: Learning", summary: "Classical conditioning, operant conditioning, schedules, and learning by watching others.", barrons: "Chapter 12, Learning (page 121)" },
+    { id: "ps13", title: "Unit 4: Social psychology", summary: "Attribution, attitudes, conformity, obedience, groups, prejudice, and helping.", barrons: "Chapter 13, Social Psychology (page 139)" },
+    { id: "ps14", title: "Unit 4: Personality", summary: "Psychodynamic, humanistic, social-cognitive, and trait theories, and how to measure personality.", barrons: "Chapter 14, Personality (page 155)" },
+    { id: "ps15", title: "Unit 4: Motivation and emotion", summary: "Theories of motivation, hunger, theories of emotion, and how people show emotion.", barrons: "Chapter 15, Motivation and Emotion (page 165). Its section Sexual Motivation (pages 169–170) is taught in chapter 11, lesson 7" },
+    { id: "ps16", title: "Unit 5: Health and positive psychology", summary: "Stress, coping, illness, and what makes people well and happy.", barrons: "Chapter 16, Health Psychology (page 179)" },
+    { id: "ps17", title: "Unit 5: Psychological disorders", summary: "How disorders are defined and classified, and the main categories in the DSM-5-TR.", barrons: "Chapter 17, Psychological Disorders (page 187)" },
+    { id: "ps18", title: "Unit 5: Treatment", summary: "Psychodynamic, humanistic, behavioral, cognitive, group, and biological therapies.", barrons: "Chapter 18, Treatment of Psychological Disorders (page 197)" },
+    { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions.", barrons: "Chapter 19, Multiple-Choice Test-Taking Tips (page 210), and Chapter 20, Answering Free-Response Questions (page 219)" },
+    { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units.", barrons: "the Review Questions at the end of Chapters 4–18, and Practice Tests 1, 2, and 3 (pages 239, 271, and 305)" }
   ],
   projects: [
     { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html" },

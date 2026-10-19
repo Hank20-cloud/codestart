@@ -13,6 +13,7 @@ addChapterContent("ps08", {
     {
       id: "ps08-l1",
       title: "Concepts, prototypes, and schemas",
+      barrons: "Chapter 8, Thinking and Creativity: Describing Thought (page 71)",
       html: `
         <p>A <strong>concept</strong> is a mental grouping of similar objects, events, ideas, or people. For example, "fruit" is a concept that
         includes apples, mangoes, and bananas. Concepts make thinking faster: we do not need a new idea for every single apple.</p>
@@ -33,6 +34,7 @@ addChapterContent("ps08", {
     {
       id: "ps08-l2",
       title: "Solving problems: algorithms, heuristics, and insight",
+      barrons: "Chapter 8, Thinking and Creativity: Problem-Solving (page 72)",
       html: `
         <table>
           <tr><th>Strategy</th><th>Meaning</th><th>Example</th></tr>
@@ -56,6 +58,7 @@ addChapterContent("ps08", {
     {
       id: "ps08-l3",
       title: "Obstacles to problem solving",
+      barrons: "Chapter 8, Thinking and Creativity: Problem-Solving (page 72)",
       html: `
         <table>
           <tr><th>Obstacle</th><th>Meaning</th><th>Example</th></tr>
@@ -71,6 +74,7 @@ addChapterContent("ps08", {
     {
       id: "ps08-l4",
       title: "Errors in decisions and judgments",
+      barrons: "Chapter 8, Thinking and Creativity: Problem-Solving (page 72)",
       html: `
         <table>
           <tr><th>Term</th><th>Meaning</th><th>Example</th></tr>
@@ -86,6 +90,7 @@ addChapterContent("ps08", {
     {
       id: "ps08-l5",
       title: "Executive functions and creativity",
+      barrons: "Chapter 8, Thinking and Creativity: Creativity (page 73)",
       html: `
         <p><strong>Executive functions</strong> are the mental skills we use to plan, focus attention, control impulses, switch between tasks,
         and reach goals. They depend mostly on the <strong>prefrontal cortex</strong> in the frontal lobe, which keeps developing until the mid-20s.

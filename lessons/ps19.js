@@ -13,6 +13,7 @@ addChapterContent("ps19", {
     {
       id: "ps19-l1",
       title: "The AP Psychology exam format",
+      barrons: "Chapter 19, Multiple-Choice Test-Taking Tips: Overview (page 210), and the AP Psychology Course and Exam Description (page xii)",
       html: `
         <div class="tip"><strong>Important:</strong> the College Board can change the exam. Always check the newest information on
         <strong>AP Central</strong> and in the <em>Course and Exam Description</em> (CED), and ask your teacher.</div>
@@ -40,6 +41,7 @@ addChapterContent("ps19", {
     {
       id: "ps19-l2",
       title: "Multiple-choice strategies",
+      barrons: "Chapter 19, Multiple-Choice Test-Taking Tips: Test-Taking Strategies (page 213) and Skills (page 213)",
       html: `
         <p>AP multiple-choice questions rarely ask "What is the definition of X?". They usually describe a person in a situation
         and ask which concept fits best. This is <strong>application</strong>.</p>
@@ -66,6 +68,7 @@ addChapterContent("ps19", {
     {
       id: "ps19-l3",
       title: "The Article Analysis Question (AAQ)",
+      barrons: "Chapter 20, Answering Free-Response Questions: Article Analysis Question (AAQ) (page 219)",
       html: `
         <p>In the AAQ you read a short summary of one research study. It usually has an introduction, participants, method,
         and results and discussion. Then you answer short parts. Each part is its own small question, not one long essay.</p>
@@ -86,6 +89,7 @@ addChapterContent("ps19", {
     {
       id: "ps19-l4",
       title: "The Evidence-Based Question (EBQ)",
+      barrons: "Chapter 20, Answering Free-Response Questions: Evidence-Based Question (EBQ) (page 220)",
       html: `
         <p>In the EBQ you read <strong>three</strong> short research sources (labeled Source 1, Source 2, and Source 3) on one topic.
         You need to use only <strong>two</strong> of them. The question has <strong>three parts</strong>:</p>
@@ -110,6 +114,7 @@ addChapterContent("ps19", {
     {
       id: "ps19-l5",
       title: "Writing tips for free response",
+      barrons: "Chapter 20, Answering Free-Response Questions: Overview (page 219)",
       html: `
         <ul>
           <li><strong>No introduction or conclusion is needed.</strong> Answer each part directly.</li>

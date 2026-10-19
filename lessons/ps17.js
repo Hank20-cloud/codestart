@@ -14,6 +14,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l1",
       title: "What is a psychological disorder?",
+      barrons: "Chapter 17, Psychological Disorders: Defining Psychological Disorders (page 188)",
       html: `
         <p>Psychologists often use three ideas to decide if a behavior may be part of a disorder. These are sometimes called
         the "three Ds":</p>
@@ -38,6 +39,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l2",
       title: "Models of disorders and diagnostic labels",
+      barrons: "Chapter 17, Psychological Disorders: Defining Psychological Disorders (page 188) and The Advantages and Disadvantages of Diagnostic Labels (page 196)",
       html: `
         <h3>Ways to explain disorders</h3>
         <ul>
@@ -64,6 +66,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l3",
       title: "Anxiety, obsessive-compulsive, and trauma disorders",
+      barrons: "Chapter 17, Psychological Disorders: Categories of Disorders (page 189)",
       html: `
         <p><strong>Anxiety disorders</strong> involve fear or worry that is too strong, lasts too long, and makes life difficult.</p>
         <table>
@@ -90,6 +93,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l4",
       title: "Depressive and bipolar disorders",
+      barrons: "Chapter 17, Psychological Disorders: Categories of Disorders (page 189)",
       html: `
         <p><strong>Major depressive disorder</strong> means at least <strong>two weeks</strong> of depressed mood or loss of
         interest and pleasure in almost everything, plus other symptoms: sleep and appetite changes, low energy, feelings of
@@ -115,6 +119,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l5",
       title: "Schizophrenia spectrum and dissociative disorders",
+      barrons: "Chapter 17, Psychological Disorders: Categories of Disorders (page 189)",
       html: `
         <p><strong>Schizophrenia</strong> is a disorder in which a person partly loses contact with reality (this is called
         <strong>psychosis</strong>). It is <em>not</em> the same as "split personality". Main symptoms:</p>
@@ -147,6 +152,7 @@ addChapterContent("ps17", {
     {
       id: "ps17-l6",
       title: "Somatic, eating, personality, and neurodevelopmental disorders",
+      barrons: "Chapter 17, Psychological Disorders: Categories of Disorders (page 189)",
       html: `
         <p><strong>Somatic symptom disorder</strong>: a person has physical symptoms (such as pain) and is extremely worried about
         them, much more than the symptoms explain. The symptoms are real to the person.</p>

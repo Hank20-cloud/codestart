@@ -14,6 +14,7 @@ addChapterContent("ps18", {
     {
       id: "ps18-l1",
       title: "Psychodynamic and humanistic therapies",
+      barrons: "Chapter 18, Treatment of Psychological Disorders: Types of Therapy (page 201)",
       html: `
         <p>In the past, many people with severe disorders lived for years in large psychiatric hospitals. From the 1950s on,
         new medications made <strong>deinstitutionalization</strong> possible: moving people out of hospitals into their communities.
@@ -47,6 +48,7 @@ addChapterContent("ps18", {
     {
       id: "ps18-l2",
       title: "Behavior therapies",
+      barrons: "Chapter 18, Treatment of Psychological Disorders: Types of Therapy (page 201)",
       html: `
         <p><strong>Behavior therapy</strong> uses the learning principles of classical and operant conditioning (from Pavlov and
         Skinner) to change problem behaviors directly. It does not look for hidden causes.</p>
@@ -73,6 +75,7 @@ addChapterContent("ps18", {
     {
       id: "ps18-l3",
       title: "Cognitive, cognitive-behavioral, and group therapies",
+      barrons: "Chapter 18, Treatment of Psychological Disorders: Types of Therapy (page 201)",
       html: `
         <p><strong>Cognitive therapy</strong> says that our thoughts change our feelings. The goal is to find and change
         unhelpful, unrealistic thoughts.</p>
@@ -106,6 +109,7 @@ addChapterContent("ps18", {
     {
       id: "ps18-l4",
       title: "Does therapy work?",
+      barrons: "Chapter 18, Treatment of Psychological Disorders: Types of Therapy (page 201)",
       html: `
         <p>People often feel better after therapy, but that alone does not prove therapy caused it. Two reasons:</p>
         <ul>
@@ -132,6 +136,7 @@ addChapterContent("ps18", {
     {
       id: "ps18-l5",
       title: "Biomedical therapies and kinds of therapists",
+      barrons: "Chapter 18, Treatment of Psychological Disorders: Types of Therapy (page 201) and Kinds of Therapists (page 202)",
       html: `
         <p><strong>Psychopharmacology</strong> is the study of how drugs affect the mind and behavior.</p>
         <table>

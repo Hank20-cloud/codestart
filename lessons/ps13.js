@@ -14,6 +14,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l1",
       title: "Attribution: explaining behavior",
+      barrons: "Chapter 13, Social Psychology: Attribution Theory (page 140)",
       html: `
         <p><strong>Attribution theory</strong> says that people try to explain the causes of behavior. We usually choose one of two kinds of cause:</p>
         <table>
@@ -47,6 +48,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l2",
       title: "Attitudes and persuasion",
+      barrons: "Chapter 13, Social Psychology: Attitude Formation and Change (page 142) and Compliance Strategies (page 143)",
       html: `
         <p>An <strong>attitude</strong> is a feeling or opinion about a person, object, or idea, which often guides how we act.
         Attitudes affect actions, but actions also change attitudes.</p>
@@ -75,6 +77,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l3",
       title: "Conformity, obedience, and groups",
+      barrons: "Chapter 13, Social Psychology: The Psychology of Social Situations (page 147) and Group Dynamics (page 149)",
       html: `
         <h3>Conformity</h3>
         <p><strong>Conformity</strong> means changing your behavior or beliefs to match a group. Solomon <strong>Asch</strong> showed participants lines and asked
@@ -110,6 +113,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l4",
       title: "Stereotypes, prejudice, and conflict",
+      barrons: "Chapter 13, Social Psychology: Stereotypes, Prejudice, and Discrimination (page 144)",
       html: `
         <table>
           <tr><th>Term</th><th>Part</th><th>Meaning</th></tr>
@@ -137,6 +141,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l5",
       title: "Aggression, helping, and attraction",
+      barrons: "Chapter 13, Social Psychology: Aggression and Antisocial Behavior (page 146), Prosocial Behavior (page 146), and Attraction (page 146)",
       html: `
         <h3>Aggression</h3>
         <p><strong>Aggression</strong> is any physical or verbal behavior meant to hurt someone. The <strong>frustration-aggression principle</strong>
@@ -166,6 +171,7 @@ addChapterContent("ps13", {
     {
       id: "ps13-l6",
       title: "Expectations and comparison",
+      barrons: "Chapter 13, Social Psychology: Attribution Theory (page 140) and Attraction (page 146)",
       html: `
         <ul>
           <li><strong>Self-fulfilling prophecy:</strong> a belief that leads to its own fulfillment. Our expectations change our behavior, and this makes the expectation come true.
