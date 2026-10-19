@@ -45,7 +45,7 @@
     {
       id: "psych", title: "AP Psychology", lang: "No code. Lessons and AP-style questions", icon: "Ψ",
       summary: "The AP Psychology course, unit by unit, with AP-style practice questions and exam skills.",
-      chapters: CODESTART.psChapters, projects: [], book: "AP Psychology Premium, 2025",
+      chapters: CODESTART.psChapters, projects: [], book: "AP Psychology Premium, 2027",
       done: "Finish with exam skills and mixed exam practice."
     }
   ];
