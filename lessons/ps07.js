@@ -131,6 +131,15 @@ addChapterContent("ps07", {
           higher up, "farther away", looks longer, because the brain uses linear perspective and size constancy.</li>
         </ul>
         <div class="tip">Phi phenomenon = blinking lights. Stroboscopic movement = a fast series of still images (movies).</div>
+        <h3>Extrasensory perception (ESP)</h3>
+        <p><strong>Extrasensory perception (ESP)</strong> is the claim that people can perceive things without using their senses.
+        Examples of these claims: <strong>telepathy</strong> (reading another person's mind), <strong>clairvoyance</strong>
+        (seeing events far away), and <strong>precognition</strong> (knowing the future). The study of such claims is called
+        <strong>parapsychology</strong>.</p>
+        <p>Psychologists are <strong>skeptical</strong> about ESP. When careful experiments try to test it, the results
+        usually cannot be <strong>replicated</strong>: other researchers do not get the same results. So there is no reliable
+        scientific evidence that ESP exists.</p>
+        <div class="tip">This is the scientific attitude from chapter 1: a claim must be tested, and the result must replicate.</div>
       `
     }
   ],

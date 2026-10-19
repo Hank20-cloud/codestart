@@ -68,15 +68,15 @@ var CODESTART = {
   ],
   // Fourth category: AP Psychology, in the order of the College Board course (Units 0-5). Topics follow
   // Barron's AP Psychology Premium and Myers' Psychology for the AP Course; the text is our own. Exercises are "mc".
-  // barrons: the matching part of Barron's AP Psychology Premium (2025 edition), shown on the chapter page.
+  // barrons: the matching part of Barron's AP Psychology Premium (2027 edition), shown on the chapter page.
   psChapters: [
-    { id: "ps01", title: "Unit 0: Research methods", summary: "Perspectives, hypotheses, variables, experiments, correlations, and other methods.", barrons: "Chapter 1, History of Psychology, and Chapter 2, Research Methods" },
-    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics.", barrons: "Chapter 3, Statistics (with APA Ethical Guidelines)" },
+    { id: "ps01", title: "Unit 0: Research methods", summary: "History, perspectives, hypotheses, variables, experiments, correlations, other methods, validity, and reliability.", barrons: "Chapter 1, History of Psychology, and Chapter 2, Research Methods" },
+    { id: "ps02", title: "Unit 0: Statistics and ethics", summary: "Mean, median, mode, standard deviation, correlation, significance, and research ethics.", barrons: "Chapter 3, Statistics and Ethics in Research" },
     { id: "ps03", title: "Unit 1: Heredity, neurons, and drugs", summary: "Nature and nurture, the nervous system, neurons, neurotransmitters, hormones, and drugs.", barrons: "Chapter 4, Biological Bases of Behavior (Genetics, Nervous System, Endocrine System), and the Drugs section of Chapter 5" },
     { id: "ps04", title: "Unit 1: The brain", summary: "Brain parts and what they do, the two hemispheres, plasticity, and brain scans.", barrons: "Chapter 4, Biological Bases of Behavior (The Brain)" },
     { id: "ps05", title: "Unit 1: Sleep and consciousness", summary: "Consciousness, circadian rhythm, sleep stages, sleep disorders, and dreams.", barrons: "Chapter 5, States of Consciousness (Levels of Consciousness, Sleep, Dreams)" },
     { id: "ps06", title: "Unit 1: Sensation", summary: "Thresholds, vision, hearing, touch, pain, taste, smell, and body senses.", barrons: "Chapter 6, Sensation" },
-    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, and attention.", barrons: "Chapter 7, Perception" },
+    { id: "ps07", title: "Unit 2: Perception", summary: "Top-down and bottom-up processing, Gestalt, depth cues, constancy, attention, and ESP claims.", barrons: "Chapter 7, Perception" },
     { id: "ps08", title: "Unit 2: Thinking and problem solving", summary: "Concepts, algorithms, heuristics, biases, mental set, and creativity.", barrons: "Chapter 8, Thinking and Creativity" },
     { id: "ps09", title: "Unit 2: Memory", summary: "Encoding, storage, retrieval, forgetting, and why memories can be wrong.", barrons: "Chapter 9, Memory" },
     { id: "ps10", title: "Unit 2: Intelligence and testing", summary: "Theories of intelligence, IQ tests, reliability, validity, and test bias.", barrons: "Chapter 10, Testing and Individual Differences" },
@@ -89,10 +89,10 @@ var CODESTART = {
     { id: "ps17", title: "Unit 5: Psychological disorders", summary: "How disorders are defined and classified, and the main categories in the DSM-5-TR.", barrons: "Chapter 17, Psychological Disorders" },
     { id: "ps18", title: "Unit 5: Treatment", summary: "Psychodynamic, humanistic, behavioral, cognitive, group, and biological therapies.", barrons: "Chapter 18, Treatment of Psychological Disorders" },
     { id: "ps19", title: "Exam skills", summary: "Multiple-choice strategies and how to answer the AAQ and the EBQ free-response questions.", barrons: "Chapter 19, Multiple-Choice Test-Taking Tips, and Chapter 20, Answering Free-Response Questions" },
-    { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units." }
+    { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units.", barrons: "the Review Questions at the end of Chapters 4-18, and Practice Tests 1, 2, and 3" }
   ],
   projects: [
-    { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html", barrons: "the Unit 1-5 Multiple-Choice Questions, and Practice Tests 1 and 2" },
+    { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html" },
     { id: "proj-quiz", title: "Quiz app", summary: "A quiz about any topic you like, with a score at the end.", fileName: "my-quiz.html" },
     { id: "proj-todo", title: "To-do list", summary: "Add, finish, and delete tasks. The list is saved in the browser.", fileName: "my-todo-list.html" }
   ]

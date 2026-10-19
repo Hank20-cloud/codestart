@@ -18,6 +18,18 @@ addChapterContent("ps01", {
         <p>Psychology uses the <strong>scientific method</strong>: people make an idea, test it with careful observation,
         and change the idea if the data do not support it. A scientist has a <strong>scientific attitude</strong>:
         curious, skeptical (asks "how do you know?"), and humble (ready to be wrong).</p>
+        <h3>A short history</h3>
+        <ul>
+          <li>In <strong>1879</strong>, <strong>Wilhelm Wundt</strong> opened the first psychology laboratory in Leipzig, Germany.
+          This is often called the start of psychology as a science.</li>
+          <li><strong>Structuralism</strong> (Edward Titchener, a student of Wundt) tried to find the basic parts, or "structure", of the mind.
+          People looked inward and described their own sensations and feelings. This method is called <strong>introspection</strong>.
+          It did not last, because different people described the same thing in different ways.</li>
+          <li><strong>Functionalism</strong> (<strong>William James</strong>, in the United States) asked a different question:
+          what is the <em>function</em> (purpose) of thoughts and behavior? How do they help us survive and adapt?</li>
+          <li>Later, <strong>behaviorism</strong> (John B. Watson, then B. F. Skinner) said psychology should study only behavior that
+          can be observed. The perspectives below grew out of these early schools.</li>
+        </ul>
         <h3>Perspectives</h3>
         <p>A <strong>perspective</strong> is a way of looking at behavior. Each perspective asks a different question.
         Imagine Daniel is very afraid of dogs. Each perspective explains this differently:</p>
@@ -170,6 +182,34 @@ addChapterContent("ps01", {
           mistakes in the method and the conclusions.</li>
         </ul>
         <div class="tip">Operational definitions make replication possible: others must know exactly what you measured.</div>
+      `
+    },
+    {
+      id: "ps01-l7",
+      title: "Validity and reliability",
+      html: `
+        <p>Good research must be both <strong>valid</strong> and <strong>reliable</strong>.</p>
+        <table>
+          <tr><th>Word</th><th>Meaning</th><th>Question to ask</th></tr>
+          <tr><td><strong>Validity</strong></td><td>the study measures what it says it measures; the result is <em>accurate</em></td><td>"Are we really measuring the right thing?"</td></tr>
+          <tr><td><strong>Reliability</strong></td><td>the study gives the same result when it is done again in the same way; the result is <em>consistent</em></td><td>"Would we get the same result next time?"</td></tr>
+        </table>
+        <p>Example: a researcher measures "happiness" by counting how many times a person smiles in one hour.</p>
+        <ul>
+          <li>The count can be <strong>reliable</strong>: two observers who watch the same video usually get the same number.</li>
+          <li>But it may not be <strong>valid</strong>: people also smile when they are nervous or polite, so smiles are not the same as happiness.</li>
+        </ul>
+        <p>A measure can be reliable but not valid, like a bathroom scale that always shows 2 kilograms too much. It is consistent, but wrong.
+        A measure that is not reliable cannot be valid, because its results change by chance.</p>
+        <h3>What makes a study valid</h3>
+        <ul>
+          <li>a clear <strong>operational definition</strong> that fits the idea being measured,</li>
+          <li>a <strong>representative sample</strong>, so the results can be generalized to the population,</li>
+          <li><strong>random assignment</strong> and control of <strong>confounding variables</strong> in experiments,</li>
+          <li>double-blind procedures, so expectations do not change the results.</li>
+        </ul>
+        <div class="tip">Valid = accurate (the right thing). Reliable = consistent (the same result again).
+        Replication tests reliability: if other researchers repeat the study and get the same result, we trust it more.</div>
       `
     }
   ],
@@ -362,6 +402,25 @@ addChapterContent("ps01", {
       hints: [
         "She does not collect new data from people.",
         "Which term means \"a study of many studies\"?"
+      ]
+    },
+    {
+      id: "ps01-ex11",
+      title: "Reliable but not valid (Science Practice)",
+      type: "mc",
+      instructions: `<p>Ms. Okafor wants to measure students' intelligence. She measures the size of each student's head with a tape measure.
+      When she measures the same students again a week later, she gets almost the same numbers. Which statement best describes her measure?</p>`,
+      choices: [
+        "It is valid and reliable, because the numbers stayed the same.",
+        "It is valid but not reliable, because a head is hard to measure.",
+        "It is reliable but not valid: head size is not intelligence.",
+        "It is neither reliable nor valid, because she did not use random assignment."
+      ],
+      answer: 2,
+      explain: "Getting the same numbers again shows the measure is reliable (consistent). But head size is not intelligence, so the measure is not valid (accurate).",
+      hints: [
+        "Reliable means consistent. Valid means it measures the right thing.",
+        "She gets the same numbers each time. But is head size really intelligence?"
       ]
     }
   ]
