@@ -93,12 +93,16 @@ var CODESTART = {
     { id: "ps20", title: "Exam practice", summary: "Mixed AP-style questions from all units.", barrons: "the Review Questions at the end of Chapters 4–18, and Practice Tests 1, 2, and 3 (pages 239, 271, and 305)" }
   ],
   // Fifth category: Math 11 Pre-Calculus, Chapter 2 (Rational Functions) of the class textbook (Crescent Beach Publishing),
-  // one chapter per section 2.1-2.4. Taken from the owner's photos of the textbook; our own text. Exercises are "mc".
+  // one chapter per section 2.1-2.8. Taken from the owner's photos of the textbook; our own text. Exercises are "mc".
   maChapters: [
     { id: "ma01", title: "2.1 Properties of rational expressions", summary: "Rational expressions, undefined values, restrictions, and simplifying to lowest terms." },
     { id: "ma02", title: "2.2 Multiplying and dividing", summary: "Multiply rational expressions, and divide by multiplying by the reciprocal." },
     { id: "ma03", title: "2.3 Adding and subtracting", summary: "Like denominators, the LCD (Least Common Denominator), and unlike denominators." },
-    { id: "ma04", title: "2.4 Mixed operations", summary: "Order of operations (BEDMAS) and complex fractions." }
+    { id: "ma04", title: "2.4 Mixed operations", summary: "Order of operations (BEDMAS) and complex fractions." },
+    { id: "ma05", title: "2.5 Rational equations", summary: "Clear fractions with the LCD, reject extraneous solutions, and solve formulas for one variable." },
+    { id: "ma06", title: "2.6 Graphing rational functions", summary: "Domain, vertical and horizontal asymptotes, holes, intercepts, and sketching graphs." },
+    { id: "ma07", title: "2.7 Applications", summary: "Word problems: unknown numbers, work rates, and distance, speed, and time." },
+    { id: "ma08", title: "2.8 Chapter review", summary: "Mixed practice from all of Chapter 2, and common mistakes to avoid." }
   ],
   projects: [
     { id: "proj-game", title: "Number guessing game", summary: "The computer picks a secret number. You build the game that lets a player guess it.", fileName: "my-guessing-game.html" },
