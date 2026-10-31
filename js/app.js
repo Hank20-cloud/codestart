@@ -50,7 +50,7 @@
     },
     {
       id: "math11", title: "Math 11 Pre-Calculus", lang: "No code. Lessons and practice questions", icon: "x²",
-      summary: "Chapter 2, Rational Functions: sections 2.1 to 2.4, with key formulas and practice questions.",
+      summary: "Chapter 2, Rational Functions: sections 2.1 to 2.8, with key formulas and practice questions.",
       chapters: CODESTART.maChapters, projects: [],
       done: "Each chapter matches one section of Chapter 2 in the textbook."
     }
